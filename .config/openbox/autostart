@@ -2,3 +2,57 @@
 # These things are run when an Openbox X Session is started.
 #
 
+# Launch composite manager
+pgrep -u "$USER" compton >/dev/null || \
+    compton -bcCG -o 0.5 -r 0 -l 2 -t 2
+
+# Launch systray
+pgrep -u "$USER" stalonetray >/dev/null || stalonetray &
+# Hide systray after 5 seconds
+(sleep 5s && xdotool search --class "stalonetray" windowunmap) &
+
+# Set volume to 30%
+amixer -q sset Master 30%
+
+# Change screen timeout
+# https://wiki.archlinux.org/index.php/Display_Power_Management_Signaling#Modifying_DPMS_and_screensaver_settings_using_xset
+xset s 590 590
+# Start xautolock daemon
+pgrep -u "$USER" xautolock >/dev/null || \
+    xautolock -locker "i3lock.sh -p 50 -de -I 5" -time 10 &
+
+# Start Udisks-glue for device automonting
+pgrep -u "$USER" udisks-glue >/dev/null || udisks-glue &
+
+# Start S.M.A.R.T. notifier
+pgrep -u "$USER" smart-notifier >/dev/null || smart-notifier &
+
+# Start AppArmor notifier
+pgrep -u "$USER" aa-notify >/dev/null || aa-notify -p -s 1 -w 60 &
+
+# Start Update-notifier
+update-notifier &
+# Start Redshift
+redshift-gtk &
+# Start ownCloud client
+owncloud &
+# Start syncthing-gtk
+syncthing-gtk --minimized &
+# Start clipboard manager
+parcellite &
+# Start Pidgin
+pidgin &
+# Start Empathy
+empathy --start-hidden &
+# Start Tox client
+qtox &
+# Start Workrave
+workrave &
+
+# Hot corners
+# Toggle visibility of systray
+xdotool behave_screen_edge --quiesce 600 --delay 0 bottom-right \
+    exec --sync "$OBOX_CONFIG/scripts/toggle-systray" &
+
+# Set background
+hsetroot -solid '#1c1c1c' -tile "${XDG_PICTURES_DIR:-$HOME/Pictures}/pattern" &
