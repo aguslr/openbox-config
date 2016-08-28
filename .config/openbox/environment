@@ -2,3 +2,5 @@
 # Set system-wide environment variables here for Openbox
 #
 
+# Set Openbox config directory
+export OBOX_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/openbox"
