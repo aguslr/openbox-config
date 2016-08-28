@@ -604,6 +604,108 @@
   <application class="*">
     <decor>no</decor>
   </application>
+  <!-- Send to www desktop -->
+  <application class="Firefox">
+    <desktop>2</desktop><focus>yes</focus>
+  </application>
+  <application class="Iceweasel">
+    <desktop>2</desktop><focus>yes</focus>
+  </application>
+  <!-- Send to dev desktop -->
+  <application class="Atom">
+    <desktop>3</desktop><focus>yes</focus>
+  </application>
+  <application class="Brackets">
+    <desktop>3</desktop><focus>yes</focus>
+  </application>
+  <application class="Eclipse">
+    <desktop>3</desktop><focus>yes</focus>
+  </application>
+  <application class="Gvim">
+    <desktop>3</desktop><focus>yes</focus>
+  </application>
+  <!-- Send to chat desktop -->
+  <application class="Hexchat">
+    <desktop>4</desktop><focus>yes</focus>
+  </application>
+  <application class="Xchat">
+    <desktop>4</desktop><focus>yes</focus>
+  </application>
+  <!-- Send to edit desktop -->
+  <application class="Abiword">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
+  <application class="Avidemux">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
+  <application class="libreoffice*">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
+  <application class="Blender">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
+  <application class="Darktable">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
+  <application class="Gimp*">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
+  <application class="Gnumeric">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
+  <application class="Handbrake">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
+  <application class="Inkscape">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
+  <application class="Openshot">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
+  <application class="Pitivi">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
+  <application class="Illustrator.exe">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
+  <application class="Photoshop.exe">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
+  <!-- Send to play desktop -->
+  <application title="Popcorn Time">
+    <desktop>6</desktop><focus>yes</focus>
+  </application>
+  <application class="Vlc">
+    <desktop>6</desktop><focus>yes</focus>
+  </application>
+  <application class="retroarch">
+    <desktop>6</desktop><focus>yes</focus>
+  </application>
+  <application class="scummvm">
+    <desktop>6</desktop><focus>yes</focus>
+  </application>
+  <application class="zsnes">
+    <desktop>6</desktop><focus>yes</focus>
+  </application>
+  <application class="Wine">
+    <desktop>6</desktop><focus>yes</focus>
+  </application>
+  <application class="Desura">
+    <desktop>6</desktop><focus>yes</focus>
+  </application>
+  <application class="Steam">
+    <desktop>6</desktop><focus>yes</focus>
+  </application>
+  <!-- Send to virt desktop -->
+  <application class="qemu-system-*">
+    <desktop>7</desktop><focus>yes</focus>
+  </application>
+  <application class="Virt-manager">
+    <desktop>7</desktop><focus>yes</focus>
+  </application>
+  <application class="VirtualBox">
+    <desktop>7</desktop><focus>yes</focus>
+  </application>
 </applications>
 
 </openbox_config>
