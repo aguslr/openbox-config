@@ -262,6 +262,13 @@
       <direction>right</direction>
     </action>
   </keybind>
+
+  <!-- Launch URxvt client -->
+  <keybind key="W-Return">
+    <action name="Execute">
+      <command>urxvtc</command>
+    </action>
+  </keybind>
 </keyboard>
 
 <mouse>
