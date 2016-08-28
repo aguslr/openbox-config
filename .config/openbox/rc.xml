@@ -274,6 +274,13 @@
       <command>urxvtc</command>
     </action>
   </keybind>
+
+  <!-- Lock screen -->
+  <keybind key="C-A-l">
+    <action name="Execute">
+      <command>sh -c 'xautolock -enable; sleep 1; xautolock -locknow'</command>
+    </action>
+  </keybind>
 </keyboard>
 
 <mouse>
