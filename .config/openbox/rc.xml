@@ -275,6 +275,13 @@
     </action>
   </keybind>
 
+  <!-- Launch dmenu -->
+  <keybind key="A-r">
+    <action name="Execute">
+      <command>dmenu_run.sh -p 'Run:'</command>
+    </action>
+  </keybind>
+
   <!-- Lock screen -->
   <keybind key="C-A-l">
     <action name="Execute">
