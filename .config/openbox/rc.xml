@@ -263,6 +263,11 @@
     </action>
   </keybind>
 
+  <!-- Toggle fullscreen -->
+  <keybind key="W-f">
+    <action name="ToggleMaximizeFull"/>
+  </keybind>
+
   <!-- Launch URxvt client -->
   <keybind key="W-Return">
     <action name="Execute">
