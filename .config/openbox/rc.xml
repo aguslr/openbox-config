@@ -234,13 +234,8 @@
     </action>
   </keybind>
   <keybind key="W-Tab">
-    <action name="NextWindow">
-      <panels>yes</panels><desktop>yes</desktop>
-      <finalactions>
-        <action name="Focus"/>
-        <action name="Raise"/>
-        <action name="Unshade"/>
-      </finalactions>
+    <action name="GoToDesktop">
+      <to>last</to>
     </action>
   </keybind>
 
