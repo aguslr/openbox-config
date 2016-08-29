@@ -28,6 +28,18 @@
     <item label="Logout">
       <action name="Exit" />
     </item>
+    <item label="Reboot">
+      <action name="Execute">
+        <prompt>Are you sure you want to reboot the system?</prompt>
+        <command>systemctl reboot</command>
+      </action>
+    </item>
+    <item label="PowerOff">
+      <action name="Execute">
+        <prompt>Are you sure you want to power off the system?</prompt>
+        <command>systemctl poweroff</command>
+      </action>
+    </item>
   </menu>
 </menu>
 
