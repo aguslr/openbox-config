@@ -56,3 +56,8 @@ xdotool behave_screen_edge --quiesce 600 --delay 0 bottom-right \
 
 # Set background
 hsetroot -solid '#1c1c1c' -tile "${XDG_PICTURES_DIR:-$HOME/Pictures}/pattern" &
+
+# Launch panel
+. "${XDG_CONFIG_HOME:-$HOME/.config}/lemonbar/panel.cfg" && panel \
+    | lemonbar -g "${BARWIDTH}x${BARHEIGHT}+${EDGEWIDTH}+${EDGEWIDTH}" -f "$PANEL_FONT_FAMILY" \
+    -F "$COLOR_FOREGROUND" -B "$COLOR_BACKGROUND" -u "$UNDERLINE_WIDTH" | sh &
