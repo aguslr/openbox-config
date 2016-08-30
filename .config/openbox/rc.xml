@@ -268,6 +268,28 @@
     </action>
   </keybind>
 
+  <!-- Move window -->
+  <keybind key="W-S-h">
+    <action name="MoveRelative">
+      <x>-20</x>
+    </action>
+  </keybind>
+  <keybind key="W-S-l">
+    <action name="MoveRelative">
+      <x>20</x>
+    </action>
+  </keybind>
+  <keybind key="W-S-k">
+    <action name="MoveRelative">
+      <y>-20</y>
+    </action>
+  </keybind>
+  <keybind key="W-S-j">
+    <action name="MoveRelative">
+      <y>20</y>
+    </action>
+  </keybind>
+
   <!-- Toggle fullscreen -->
   <keybind key="W-f">
     <action name="ToggleFullscreen"/>
