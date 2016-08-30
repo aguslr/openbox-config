@@ -5,6 +5,27 @@
         xsi:schemaLocation="http://openbox.org/
                 file:///usr/share/openbox/menu.xsd">
 
+<menu id="exit-menu" label="Exit">
+  <item label="Restart">
+    <action name="Restart" />
+  </item>
+  <item label="Logout">
+    <action name="Exit" />
+  </item>
+  <item label="Reboot">
+    <action name="Execute">
+      <prompt>Are you sure you want to reboot the system?</prompt>
+      <command>systemctl reboot</command>
+    </action>
+  </item>
+  <item label="PowerOff">
+    <action name="Execute">
+      <prompt>Are you sure you want to power off the system?</prompt>
+      <command>systemctl poweroff</command>
+    </action>
+  </item>
+</menu>
+
 <menu id="root-menu" label="Openbox 3">
   <item label="URxvt">
     <action name="Execute"><execute>urxvtc</execute></action>
@@ -21,26 +42,7 @@
     <action name="Reconfigure" />
   </item>
   <separator />
-  <menu id="Exit" label="Exit">
-    <item label="Restart">
-      <action name="Restart" />
-    </item>
-    <item label="Logout">
-      <action name="Exit" />
-    </item>
-    <item label="Reboot">
-      <action name="Execute">
-        <prompt>Are you sure you want to reboot the system?</prompt>
-        <command>systemctl reboot</command>
-      </action>
-    </item>
-    <item label="PowerOff">
-      <action name="Execute">
-        <prompt>Are you sure you want to power off the system?</prompt>
-        <command>systemctl poweroff</command>
-      </action>
-    </item>
-  </menu>
+  <menu id="exit-menu"/>
 </menu>
 
 </openbox_menu>

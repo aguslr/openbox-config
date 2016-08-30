@@ -365,6 +365,9 @@
       <command>sh -c 'xautolock -enable; sleep 1; xautolock -locknow'</command>
     </action>
   </keybind>
+  <keybind key="W-A-Escape">
+    <action name="ShowMenu"><menu>exit-menu</menu></action>
+  </keybind>
 </keyboard>
 
 <mouse>
