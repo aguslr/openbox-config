@@ -260,6 +260,14 @@
     </action>
   </keybind>
 
+  <!-- Center window -->
+  <keybind key="W-S-c">
+    <action name="MoveResizeTo">
+      <x>center</x>
+      <y>center</y>
+    </action>
+  </keybind>
+
   <!-- Toggle fullscreen -->
   <keybind key="W-f">
     <action name="ToggleFullscreen"/>
