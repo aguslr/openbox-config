@@ -289,6 +289,27 @@
       <y>20</y>
     </action>
   </keybind>
+  <!-- Move window to edge -->
+  <keybind key="W-S-A-h">
+    <action name="MoveResizeTo">
+      <x>0</x>
+    </action>
+  </keybind>
+  <keybind key="W-S-A-l">
+    <action name="MoveResizeTo">
+      <x>-0</x>
+    </action>
+  </keybind>
+  <keybind key="W-S-A-k">
+    <action name="MoveResizeTo">
+      <y>0</y>
+    </action>
+  </keybind>
+  <keybind key="W-S-A-j">
+    <action name="MoveResizeTo">
+      <y>-0</y>
+    </action>
+  </keybind>
 
   <!-- Toggle fullscreen -->
   <keybind key="W-f">
