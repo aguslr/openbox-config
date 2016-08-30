@@ -113,14 +113,8 @@
 <keyboard>
   <chainQuitKey>C-g</chainQuitKey>
 
-  <keybind key="C-A-Left">
-    <action name="GoToDesktop"><to>left</to><wrap>no</wrap></action>
-  </keybind>
   <keybind key="W-Left">
     <action name="GoToDesktop"><to>left</to><wrap>no</wrap></action>
-  </keybind>
-  <keybind key="C-A-Right">
-    <action name="GoToDesktop"><to>right</to><wrap>no</wrap></action>
   </keybind>
   <keybind key="W-Right">
     <action name="GoToDesktop"><to>right</to><wrap>no</wrap></action>
@@ -154,14 +148,8 @@
   </keybind>
 
   <!-- Send window to specific desktop -->
-  <keybind key="C-S-A-Left">
-    <action name="SendToDesktop"><to>left</to><wrap>no</wrap></action>
-  </keybind>
   <keybind key="W-S-Left">
     <action name="SendToDesktop"><to>left</to><wrap>no</wrap></action>
-  </keybind>
-  <keybind key="C-S-A-Right">
-    <action name="SendToDesktop"><to>right</to><wrap>no</wrap></action>
   </keybind>
   <keybind key="W-S-Right">
     <action name="SendToDesktop"><to>right</to><wrap>no</wrap></action>
@@ -309,6 +297,38 @@
     <action name="MoveResizeTo">
       <y>-0</y>
     </action>
+  </keybind>
+
+  <!-- Window snapping
+       https://wiki.archlinux.org/index.php/Openbox#Window_snapping -->
+  <keybind key="C-A-Left">
+    <action name="UnmaximizeFull"/>
+    <action name="MaximizeVert"/>
+    <action name="MoveResizeTo">
+      <width>50%</width>
+    </action>
+    <action name="MoveResizeTo">
+      <x>0</x>
+      <y>0</y>
+    </action>
+  </keybind>
+  <keybind key="C-A-Right">
+    <action name="UnmaximizeFull"/>
+    <action name="MaximizeVert"/>
+    <action name="MoveResizeTo">
+      <width>50%</width>
+    </action>
+    <action name="MoveResizeTo">
+      <x>-0</x>
+      <y>0</y>
+    </action>
+  </keybind>
+  <keybind key="C-A-Up">
+    <action name="Maximize"/>
+  </keybind>
+  <keybind key="C-A-Down">
+    <action name="Maximize"/>
+    <action name="Unmaximize"/>
   </keybind>
 
   <!-- Toggle fullscreen -->
