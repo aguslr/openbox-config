@@ -269,6 +269,11 @@
     <action name="ToggleMaximizeFull"/>
   </keybind>
 
+  <!-- Open menu -->
+  <keybind key="A-F1">
+    <action name="ShowMenu"><menu>root-menu</menu></action>
+  </keybind>
+
   <!-- Launch URxvt client -->
   <keybind key="W-Return">
     <action name="Execute">
