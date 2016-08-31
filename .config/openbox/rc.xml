@@ -26,7 +26,7 @@
 
 <theme>
   <name>Mirage</name>
-  <titleLayout>NLIMC</titleLayout>
+  <titleLayout>LSMC</titleLayout>
   <keepBorder>yes</keepBorder>
   <animateIconify>no</animateIconify>
   <font place="ActiveWindow">
