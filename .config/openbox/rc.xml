@@ -182,10 +182,6 @@
     <action name="SendToDesktop"><to>9</to></action>
   </keybind>
 
-  <keybind key="W-d">
-    <action name="ToggleShowDesktop"/>
-  </keybind>
-
   <keybind key="A-F4">
     <action name="Close"/>
   </keybind>
@@ -334,6 +330,11 @@
   <!-- Toggle dock autohide -->
   <keybind key="W-t">
     <action name="ToggleDockAutohide"/>
+  </keybind>
+
+  <!-- Toggle decorations -->
+  <keybind key="W-d">
+    <action name="ToggleDecorations"/>
   </keybind>
 
   <!-- Toggle fullscreen -->
