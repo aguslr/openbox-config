@@ -327,6 +327,26 @@
     <action name="Unmaximize"/>
   </keybind>
 
+  <!-- Toggle shading -->
+  <keybind key="W-s">
+    <action name="If">
+      <query>
+        <shaded>no</shaded>
+      </query>
+      <then>
+        <action name="Decorate"/>
+        <action name="Shade"/>
+        <action name="FocusToBottom"/>
+        <action name="Unfocus"/>
+      </then>
+      <else>
+        <action name="Focus"/>
+        <action name="Unshade"/>
+        <action name="Undecorate"/>
+      </else>
+    </action>
+  </keybind>
+
   <!-- Toggle dock autohide -->
   <keybind key="W-t">
     <action name="ToggleDockAutohide"/>
