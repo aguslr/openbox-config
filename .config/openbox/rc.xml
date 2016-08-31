@@ -98,13 +98,13 @@
 </margins>
 
 <dock>
-  <position>BottomLeft</position>
+  <position>BottomRight</position>
   <floatingX>0</floatingX>
   <floatingY>0</floatingY>
-  <noStrut>no</noStrut>
+  <noStrut>yes</noStrut>
   <stacking>Above</stacking>
-  <direction>Vertical</direction>
-  <autoHide>no</autoHide>
+  <direction>Horizontal</direction>
+  <autoHide>yes</autoHide>
   <hideDelay>300</hideDelay>
   <showDelay>300</showDelay>
   <moveButton>Middle</moveButton>
@@ -329,6 +329,11 @@
   <keybind key="C-A-Down">
     <action name="Maximize"/>
     <action name="Unmaximize"/>
+  </keybind>
+
+  <!-- Toggle dock autohide -->
+  <keybind key="W-t">
+    <action name="ToggleDockAutohide"/>
   </keybind>
 
   <!-- Toggle fullscreen -->

@@ -8,8 +8,6 @@ pgrep -u "$USER" compton >/dev/null || \
 
 # Launch systray
 pgrep -u "$USER" stalonetray >/dev/null || stalonetray &
-# Hide systray after 5 seconds
-(sleep 5s && xdotool search --class "stalonetray" windowunmap) &
 
 # Set volume to 30%
 amixer -q sset Master 30%
@@ -48,11 +46,6 @@ empathy --start-hidden &
 qtox &
 # Start Workrave
 workrave &
-
-# Hot corners
-# Toggle visibility of systray
-xdotool behave_screen_edge --quiesce 600 --delay 0 bottom-right \
-    exec --sync "$OBOX_CONFIG/scripts/toggle-systray" &
 
 # Set background
 hsetroot -solid '#1c1c1c' -tile "${XDG_PICTURES_DIR:-$HOME/Pictures}/pattern" &
