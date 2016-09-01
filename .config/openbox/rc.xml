@@ -710,6 +710,28 @@
   <application class="*">
     <decor>no</decor>
   </application>
+  <application name="popup">
+    <decor>no</decor>
+    <shade>no</shade>
+    <fullscreen>no</fullscreen>
+    <maximized>no</maximized>
+    <position force="yes">
+      <x>center</x>
+      <y>center</y>
+      <monitor>mouse</monitor>
+    </position>
+  </application>
+  <application name="gmessage">
+    <decor>no</decor>
+    <shade>no</shade>
+    <fullscreen>no</fullscreen>
+    <maximized>no</maximized>
+    <position force="yes">
+      <x>center</x>
+      <y>center</y>
+      <monitor>mouse</monitor>
+    </position>
+  </application>
   <!-- Send to www desktop -->
   <application class="Firefox">
     <desktop>2</desktop><focus>yes</focus>
