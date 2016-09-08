@@ -347,6 +347,11 @@
     </action>
   </keybind>
 
+  <!-- Toggle omnipresent -->
+  <keybind key="W-o">
+    <action name="ToggleOmnipresent"/>
+  </keybind>
+
   <!-- Toggle dock autohide -->
   <keybind key="W-t">
     <action name="ToggleDockAutohide"/>
