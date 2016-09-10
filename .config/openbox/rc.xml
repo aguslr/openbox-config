@@ -98,7 +98,7 @@
 </margins>
 
 <dock>
-  <position>BottomRight</position>
+  <position>BottomLeft</position>
   <floatingX>0</floatingX>
   <floatingY>0</floatingY>
   <noStrut>yes</noStrut>
