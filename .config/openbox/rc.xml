@@ -114,10 +114,14 @@
   <chainQuitKey>C-g</chainQuitKey>
 
   <keybind key="W-Left">
-    <action name="GoToDesktop"><to>left</to><wrap>no</wrap></action>
+    <action name="Execute">
+      <command>sh -c 'changeDesktop.sh prev'</command>
+    </action>
   </keybind>
   <keybind key="W-Right">
-    <action name="GoToDesktop"><to>right</to><wrap>no</wrap></action>
+    <action name="Execute">
+      <command>sh -c 'changeDesktop.sh next'</command>
+    </action>
   </keybind>
   <keybind key="W-1">
     <action name="GoToDesktop"><to>1</to></action>
