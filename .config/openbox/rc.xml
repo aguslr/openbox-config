@@ -882,6 +882,11 @@
   <application class="zsnes">
     <desktop>6</desktop><focus>yes</focus>
   </application>
+  <application title="PlayOnLinux*">
+    <desktop>6</desktop>
+    <focus>yes</focus>
+    <decor>yes</decor>
+  </application>
   <application class="Wine">
     <desktop>6</desktop><focus>yes</focus>
   </application>
