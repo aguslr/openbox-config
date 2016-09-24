@@ -801,7 +801,7 @@
   </application>
 
   <!-- Send to www desktop -->
-  <application class="Firefox">
+  <application title="Mozilla Firefox">
     <desktop>2</desktop><focus>yes</focus>
   </application>
   <application class="Iceweasel">
