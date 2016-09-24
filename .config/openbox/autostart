@@ -52,7 +52,13 @@ workrave &
 # Set background
 hsetroot -solid '#1c1c1c' -tile "${XDG_PICTURES_DIR:-$HOME/Pictures}/pattern" &
 
-# Launch panel
+# Launch panel (top)
 . "${XDG_CONFIG_HOME:-$HOME/.config}/lemonbar/panel.cfg" && panel \
     | lemonbar -g "${BARWIDTH}x${BARHEIGHT}+${EDGEWIDTH}+${EDGEWIDTH}" -f "$PANEL_FONT_FAMILY" \
     -F "$COLOR_FOREGROUND" -B "$COLOR_BACKGROUND" -u "$UNDERLINE_WIDTH" | sh &
+
+# Launch log messages feed (bottom)
+. "${XDG_CONFIG_HOME:-$HOME/.config}/lemonbar/panel.cfg" \
+    && dmesg --decode --color=never --follow \
+    | lemonbar -g "${BARWIDTH}x${BARHEIGHT}+${EDGEWIDTH}+${EDGEWIDTH}" -f "$PANEL_FONT_FAMILY" \
+    -F "$COLOR_FREE_FG" -B "$COLOR_BACKGROUND" -b &
