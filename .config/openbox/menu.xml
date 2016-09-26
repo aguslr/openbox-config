@@ -15,13 +15,13 @@
   <item label="Reboot">
     <action name="Execute">
       <prompt>Are you sure you want to reboot the system?</prompt>
-      <command>systemctl reboot</command>
+      <command>sh -c 'systemctl reboot || sudo -A reboot'</command>
     </action>
   </item>
   <item label="PowerOff">
     <action name="Execute">
       <prompt>Are you sure you want to power off the system?</prompt>
-      <command>systemctl poweroff</command>
+      <command>sh -c 'systemctl poweroff || sudo -A halt -p'</command>
     </action>
   </item>
 </menu>
