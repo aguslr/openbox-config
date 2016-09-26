@@ -20,7 +20,7 @@
 <placement>
   <policy>Smart</policy>
   <center>yes</center>
-  <monitor>Primary</monitor>
+  <monitor>Mouse</monitor>
   <primaryMonitor>1</primaryMonitor>
 </placement>
 
@@ -735,7 +735,6 @@
 <applications>
   <application class="*">
     <decor>no</decor>
-    <position force="yes"><monitor>1</monitor></position>
   </application>
   <application name="popup">
     <decor>no</decor>
