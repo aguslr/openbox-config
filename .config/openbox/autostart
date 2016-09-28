@@ -50,7 +50,7 @@ qtox &
 workrave &
 
 # Set background
-hsetroot -solid '#1c1c1c' -tile "${XDG_PICTURES_DIR:-$HOME/Pictures}/pattern" &
+hsetroot -solid '#666666' &
 
 # Launch panel (top)
 . "${XDG_CONFIG_HOME:-$HOME/.config}/lemonbar/panel.cfg" && panel \
