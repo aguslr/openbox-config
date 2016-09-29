@@ -812,7 +812,7 @@
   <application class="Avidemux">
     <desktop>5</desktop><focus>yes</focus>
   </application>
-  <application class="libreoffice*">
+  <application class="LibreOffice*">
     <desktop>5</desktop><focus>yes</focus>
   </application>
   <application class="Blender">
