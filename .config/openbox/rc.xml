@@ -798,6 +798,9 @@
   <application class="Gvim">
     <desktop>3</desktop><focus>yes</focus>
   </application>
+  <application class="Mysql-workbench-bin">
+    <desktop>3</desktop><focus>yes</focus>
+  </application>
   <!-- Send to chat desktop -->
   <application class="Hexchat">
     <desktop>4</desktop><focus>yes</focus>
