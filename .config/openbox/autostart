@@ -10,7 +10,7 @@ pgrep -u "$USER" compton >/dev/null || \
 pgrep -u "$USER" stalonetray >/dev/null || stalonetray &
 
 # Set volume to 30%
-amixer -q sset Master 30%
+amixer -q sset Master 50%
 
 # Change screen timeout
 # https://wiki.archlinux.org/index.php/Display_Power_Management_Signaling#Modifying_DPMS_and_screensaver_settings_using_xset
