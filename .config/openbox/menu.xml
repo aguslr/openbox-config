@@ -27,6 +27,10 @@
 </menu>
 
 <menu id="root-menu" label="Openbox 3">
+  <item label="Run...">
+    <action name="Execute"><command>dmenu_run.sh -p 'Run:'</command></action>
+  </item>
+  <separator />
   <item label="URxvt">
     <action name="Execute"><execute>urxvtc</execute></action>
   </item>
