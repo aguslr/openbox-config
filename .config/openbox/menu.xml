@@ -32,10 +32,10 @@
   </item>
   <separator />
   <item label="URxvt">
-    <action name="Execute"><execute>urxvtc</execute></action>
+    <action name="Execute"><command>urxvtc</command></action>
   </item>
   <item label="Firefox">
-    <action name="Execute"><execute>firefox</execute></action>
+    <action name="Execute"><command>firefox</command></action>
   </item>
   <!-- This requires the presence of the 'menu' package to work -->
   <menu id="/Debian" />
