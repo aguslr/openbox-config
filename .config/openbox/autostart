@@ -54,5 +54,6 @@ hsetroot -solid '#666666' &
 
 # Launch panel
 . "${XDG_CONFIG_HOME:-$HOME/.config}/lemonbar/panel.cfg" && panel \
-    | lemonbar -g "${BARWIDTH}x${BARHEIGHT}+${EDGEWIDTH}+${EDGEWIDTH}" -f "$PANEL_FONT_FAMILY" \
-    -F "$COLOR_FOREGROUND" -B "$COLOR_BACKGROUND" -u "$UNDERLINE_WIDTH" | sh &
+    | lemonbar -a 50 -g "${BARWIDTH}x${BARHEIGHT}+${EDGEWIDTH}+${EDGEWIDTH}" \
+    -f "$PANEL_FONT_FAMILY" -F "$COLOR_FOREGROUND" -B "$COLOR_BACKGROUND" \
+    -u "$UNDERLINE_WIDTH" | sh &
