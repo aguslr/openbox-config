@@ -789,10 +789,16 @@
   <application title="Mozilla Firefox">
     <desktop>2</desktop><focus>yes</focus>
   </application>
+  <application class="Epiphany">
+    <desktop>2</desktop><focus>yes</focus>
+  </application>
   <application class="Firefox">
     <desktop>2</desktop><focus>yes</focus>
   </application>
   <application class="Iceweasel">
+    <desktop>2</desktop><focus>yes</focus>
+  </application>
+  <application class="Midori">
     <desktop>2</desktop><focus>yes</focus>
   </application>
   <!-- Send to dev desktop -->
