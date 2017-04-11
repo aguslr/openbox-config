@@ -42,6 +42,9 @@
   <separator />
   <menu id="client-list-menu" />
   <separator />
+  <item label="Appearance">
+    <action name="Execute"><execute>lxappearance</execute></action>
+  </item>
   <item label="Reconfigure">
     <action name="Reconfigure" />
   </item>
