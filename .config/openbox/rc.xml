@@ -808,6 +808,9 @@
   <application class="Eclipse">
     <desktop>3</desktop><focus>yes</focus>
   </application>
+  <application class="Eric5.py">
+    <desktop>3</desktop><focus>yes</focus>
+  </application>
   <application class="Gvim">
     <desktop>3</desktop><focus>yes</focus>
   </application>
