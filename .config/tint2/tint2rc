@@ -95,7 +95,7 @@ urgent_nb_of_blink = 7
 task_maximum_size = 200 30
 task_padding = 8 2 8
 task_font = Terminus 12
-task_tooltip = 0
+task_tooltip = 1
 task_font_color = #fefefe 100
 task_active_font_color = #fefefe 100
 task_urgent_font_color = #fefefe 100
@@ -190,7 +190,7 @@ ac_disconnected_cmd =
 # Tooltip
 #-------------------------------------
 
-tooltip_show_timeout = 0
+tooltip_show_timeout = 1
 tooltip_hide_timeout = 0
 tooltip_padding = 8 8
 tooltip_background_id = 3
