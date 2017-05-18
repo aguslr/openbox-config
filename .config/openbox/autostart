@@ -18,9 +18,11 @@ amixer -q sset Master 50%
 # Change screen timeout
 # https://wiki.archlinux.org/index.php/Display_Power_Management_Signaling#Modifying_DPMS_and_screensaver_settings_using_xset
 xset s 590 590
-# Start xautolock daemon
-pgrep -xu "$USER" xautolock >/dev/null || \
-    xautolock -locker "i3lock.sh -p 50 -de -I 5" -time 10 &
+# Start xautolock daemon if login locally
+if [ -z "$XRDP_SESSION" ]; then
+	pgrep -xu "$USER" xautolock >/dev/null || \
+	    xautolock -locker "i3lock.sh -p 50 -de -I 5" -time 10 &
+fi
 
 # Start Udisks-glue for device automonting
 pgrep -xu "$USER" udisks-glue >/dev/null || udisks-glue &
