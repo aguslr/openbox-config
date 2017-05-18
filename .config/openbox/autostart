@@ -12,9 +12,6 @@ pgrep -xu "$USER" compton >/dev/null || \
 # Launch systray
 pgrep -xu "$USER" stalonetray >/dev/null || stalonetray &
 
-# Set volume to 30%
-amixer -q sset Master 50%
-
 # Change screen timeout
 # https://wiki.archlinux.org/index.php/Display_Power_Management_Signaling#Modifying_DPMS_and_screensaver_settings_using_xset
 xset s 590 590
@@ -32,6 +29,9 @@ pgrep -xu "$USER" smart-notifier >/dev/null || smart-notifier &
 
 # Start AppArmor notifier
 pgrep -xu "$USER" aa-notify >/dev/null || aa-notify -p -s 1 -w 60 &
+
+# Set volume to 50%
+amixer -q sset Master 50%
 
 # Start gxkb applet
 gxkb &
