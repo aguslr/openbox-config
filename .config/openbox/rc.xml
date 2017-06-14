@@ -783,6 +783,9 @@
   </application>
 
   <!-- Send to www desktop -->
+  <application class="Chromium-browser">
+    <desktop>2</desktop><focus>yes</focus>
+  </application>
   <application title="Mozilla Firefox">
     <desktop>2</desktop><focus>yes</focus>
   </application>
@@ -828,6 +831,9 @@
   <application class="Abiword">
     <desktop>5</desktop><focus>yes</focus>
   </application>
+  <application class="Audacity">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
   <application class="Avidemux">
     <desktop>5</desktop><focus>yes</focus>
   </application>
@@ -852,10 +858,28 @@
   <application class="Inkscape">
     <desktop>5</desktop><focus>yes</focus>
   </application>
+  <application class="Lmms">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
+  <application class="Muse">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
   <application class="Openshot">
     <desktop>5</desktop><focus>yes</focus>
   </application>
   <application class="Pitivi">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
+  <application class="Qsynth">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
+  <application class="Qtractor">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
+  <application class="Rosegarden">
+    <desktop>5</desktop><focus>yes</focus>
+  </application>
+  <application class="Seq24">
     <desktop>5</desktop><focus>yes</focus>
   </application>
   <application class="Illustrator.exe">
