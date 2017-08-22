@@ -783,7 +783,7 @@
   </application>
 
   <!-- Send to www desktop -->
-  <application class="Chromium-browser">
+  <application class="Chromium">
     <desktop>2</desktop><focus>yes</focus>
   </application>
   <application title="Mozilla Firefox">
@@ -892,7 +892,7 @@
   <application title="Popcorn Time">
     <desktop>6</desktop><focus>yes</focus>
   </application>
-  <application class="Vlc">
+  <application class="vlc">
     <desktop>6</desktop><focus>yes</focus>
   </application>
   <application class="retroarch">
