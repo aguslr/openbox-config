@@ -21,8 +21,8 @@ if [ -z "$XRDP_SESSION" ]; then
 	    xautolock -locker "i3lock.sh -p 50 -de -I 5" -time 10 &
 fi
 
-# Start Udisks-glue for device automonting
-pgrep -xu "$USER" udisks-glue >/dev/null || udisks-glue &
+# Start udiskie for device automonting
+pgrep -xu "$USER" udiskie >/dev/null || udiskie &
 
 # Start S.M.A.R.T. notifier
 pgrep -xu "$USER" smart-notifier >/dev/null || smart-notifier &
