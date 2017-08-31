@@ -25,11 +25,11 @@ border_color_pressed = #224f55 0
 # Background 3
 rounded = 0
 border_width = 0
-background_color = #21393d 100
+background_color = #111111 100
 border_color = #fefefe 100
-background_color_hover = #46919c 32
+background_color_hover = #0ac1cd 32
 border_color_hover = #fefefe 100
-background_color_pressed = #46919c 32
+background_color_pressed = #0ac1cd 32
 border_color_pressed = #fefefe 100
 
 
