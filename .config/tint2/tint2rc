@@ -37,7 +37,7 @@ border_color_pressed = #fefefe 100
 # Panel
 #-------------------------------------
 
-panel_items = TBC
+panel_items = TBEEEE
 panel_size = 100% 30
 panel_margin = 0 0
 panel_padding = 0 0 0
@@ -196,3 +196,57 @@ tooltip_padding = 8 8
 tooltip_background_id = 3
 tooltip_font_color = #fefefe 100
 tooltip_font = Terminus 10
+
+
+#-------------------------------------
+# Executors
+#-------------------------------------
+
+execp = new
+execp_command = echo -n '<span foreground="#666">mpd </span>' && staty.sh mpd
+execp_markup = 1
+execp_interval = 1
+execp_font = Terminus 12
+execp_font_color = #fefefe 100
+execp_padding = 6 0
+execp_background_id = 0
+execp_tooltip =
+execp_lclick_command = urxvtc -name popup -g 80x40 -e ncmpcpp
+execp_mclick_command = mpc toggle
+execp_uwheel_command = mpc prev
+execp_dwheel_command = mpc next
+
+execp = new
+execp_command = echo -n '<span foreground="#666">pkg </span>' && staty.sh upg
+execp_markup = 1
+execp_interval = 30
+execp_font = Terminus 12
+execp_font_color = #fefefe 100
+execp_padding = 6 0
+execp_background_id = 0
+execp_tooltip =
+
+execp = new
+execp_command = echo -n '<span foreground="#666">vol </span>' && staty.sh vol
+execp_markup = 1
+execp_interval = 1
+execp_font = Terminus 12
+execp_font_color = #fefefe 100
+execp_padding = 6 0
+execp_background_id = 0
+execp_tooltip =
+execp_lclick_command = pavucontrol
+execp_mclick_command = amixer -q sset Master toggle
+execp_uwheel_command = amixer -q sset Master 2%+
+execp_dwheel_command = amixer -q sset Master 2%-
+
+execp = new
+execp_command = echo -n '<span foreground="#666">clk </span>' && date '+%a, %d %b %H:%M'
+execp_markup = 1
+execp_interval = 1
+execp_font = Terminus 12
+execp_font_color = #fefefe 100
+execp_padding = 6 0
+execp_background_id = 0
+execp_tooltip =
+execp_lclick_command = gsimplecal
