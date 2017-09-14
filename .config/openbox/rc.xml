@@ -250,9 +250,16 @@
             </action>
           </then>
           <else>
-            <action name="Focus"/>
-            <action name="Raise"/>
-            <action name="Unshade"/>
+            <action name="If">
+              <query>
+                <title>*</title>
+              </query>
+              <then>
+                <action name="Focus"/>
+                <action name="Raise"/>
+                <action name="Unshade"/>
+              </then>
+            </action>
           </else>
         </action>
       </finalactions>
