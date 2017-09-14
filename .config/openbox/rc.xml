@@ -842,6 +842,9 @@
   <application class="Hexchat">
     <desktop>4</desktop><focus>yes</focus>
   </application>
+  <application class="Remmina">
+    <desktop>4</desktop><focus>yes</focus>
+  </application>
   <application class="Xchat">
     <desktop>4</desktop><focus>yes</focus>
   </application>
