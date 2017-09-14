@@ -845,6 +845,9 @@
   <application class="Remmina">
     <desktop>4</desktop><focus>yes</focus>
   </application>
+  <application class="Wireshark">
+    <desktop>4</desktop><focus>yes</focus>
+  </application>
   <application class="Xchat">
     <desktop>4</desktop><focus>yes</focus>
   </application>
