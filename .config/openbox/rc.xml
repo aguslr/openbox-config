@@ -74,7 +74,7 @@
     <name>term</name>
     <name>www</name>
     <name>dev</name>
-    <name>chat</name>
+    <name>net</name>
     <name>edit</name>
     <name>play</name>
     <name>virt</name>
@@ -838,7 +838,7 @@
   <application class="Mysql-workbench-bin">
     <desktop>3</desktop><focus>yes</focus>
   </application>
-  <!-- Send to chat desktop -->
+  <!-- Send to net desktop -->
   <application class="Hexchat">
     <desktop>4</desktop><focus>yes</focus>
   </application>
