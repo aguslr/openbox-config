@@ -943,6 +943,14 @@
   <application class="qemu-system-*">
     <desktop>7</desktop><focus>yes</focus>
   </application>
+  <application class="Remmina" title="*QEMU*">
+    <desktop>7</desktop><focus>yes</focus>
+    <fullscreen>yes</fullscreen>
+    <position force="yes">
+      <x>center</x><y>center</y>
+      <monitor>2</monitor>
+    </position>
+  </application>
   <application class="Virt-manager">
     <desktop>7</desktop><focus>yes</focus>
   </application>
