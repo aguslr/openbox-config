@@ -849,7 +849,7 @@
   <application class="Hexchat">
     <desktop>4</desktop><focus>yes</focus>
   </application>
-  <application class="Remmina">
+  <application class="Remmina" type="normal">
     <desktop>4</desktop><focus>yes</focus>
   </application>
   <application class="Wireshark">
@@ -953,7 +953,7 @@
   <application class="qemu-system-*">
     <desktop>7</desktop><focus>yes</focus>
   </application>
-  <application class="Remmina" title="*QEMU*">
+  <application class="Remmina" title="*QEMU*" type="normal">
     <desktop>7</desktop><focus>yes</focus>
     <fullscreen>yes</fullscreen>
     <position force="yes">
