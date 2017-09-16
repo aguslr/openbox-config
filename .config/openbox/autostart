@@ -2,9 +2,6 @@
 # These things are run when an Openbox X Session is started.
 #
 
-# Set PATH for scripts
-PATH="${HOME}/bin:$PATH"
-
 # Launch composite manager
 pgrep -xu "$USER" compton >/dev/null || \
     compton -bcCG -o 0.2 -r 0 -l 5 -t 5
@@ -59,17 +56,5 @@ workrave &
 # Set background
 hsetroot -solid '#666666' &
 
-# Get screen dimensions
-screenwidth=$(staty.sh screen width)
-
 # Launch panel
-if [ "$screenwidth" -ge 1920 ]; then
-	# If screen is big launch lemonbar
-	. "${XDG_CONFIG_HOME:-$HOME/.config}/lemonbar/panel.cfg" && panel \
-	    | lemonbar -a 50 -g "${BARWIDTH}x${BARHEIGHT}+${EDGEWIDTH}+${EDGEWIDTH}" \
-	    -f "$PANEL_FONT_FAMILY" -F "$COLOR_FOREGROUND" -B "$COLOR_BACKGROUND" \
-	    -u "$UNDERLINE_WIDTH" | sh &
-else
-	# Else launch tint2
-	tint2 &
-fi
+tint2 &

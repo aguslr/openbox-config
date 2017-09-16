@@ -789,11 +789,6 @@
     </position>
   </application>
 
-  <!-- Lemonbar -->
-  <application title="bar">
-    <layer>below</layer>
-  </application>
-
   <!-- GIMP windows -->
   <application class="Gimp*" name="gimp*" role="gimp-toolbox" type="utility">
     <maximized>vertical</maximized>
