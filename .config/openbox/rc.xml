@@ -485,10 +485,14 @@
     </mousebind>
 
     <mousebind button="A-Up" action="Click">
-      <action name="GoToDesktop"><to>previous</to></action>
+      <action name="Execute">
+        <command>sh -c 'changeDesktop.sh prev'</command>
+      </action>
     </mousebind>
     <mousebind button="A-Down" action="Click">
-      <action name="GoToDesktop"><to>next</to></action>
+      <action name="Execute">
+        <command>sh -c 'changeDesktop.sh next'</command>
+      </action>
     </mousebind>
     <mousebind button="C-A-Up" action="Click">
       <action name="GoToDesktop"><to>previous</to></action>
@@ -695,10 +699,14 @@
 
   <context name="Desktop">
     <mousebind button="A-Up" action="Click">
-      <action name="GoToDesktop"><to>previous</to></action>
+      <action name="Execute">
+        <command>sh -c 'changeDesktop.sh prev'</command>
+      </action>
     </mousebind>
     <mousebind button="A-Down" action="Click">
-      <action name="GoToDesktop"><to>next</to></action>
+      <action name="Execute">
+        <command>sh -c 'changeDesktop.sh next'</command>
+      </action>
     </mousebind>
     <mousebind button="C-A-Up" action="Click">
       <action name="GoToDesktop"><to>previous</to></action>
