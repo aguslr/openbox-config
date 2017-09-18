@@ -137,8 +137,7 @@ launcher_background_id = 3
 launcher_icon_background_id = 2
 launcher_icon_size = 0
 launcher_icon_asb = 0 -100 -100
-launcher_icon_theme = flattr-icons-0.9-beta
-launcher_icon_theme_override = 1
+launcher_icon_theme_override = 0
 startup_notifications = 0
 launcher_tooltip = 0
 
