@@ -351,22 +351,18 @@
     <action name="UnmaximizeFull"/>
     <action name="MaximizeVert"/>
     <action name="MoveResizeTo">
-      <width>50%</width>
-    </action>
-    <action name="MoveResizeTo">
       <x>0</x>
       <y>0</y>
+      <width>50%</width>
     </action>
   </keybind>
   <keybind key="C-A-Right">
     <action name="UnmaximizeFull"/>
     <action name="MaximizeVert"/>
     <action name="MoveResizeTo">
-      <width>50%</width>
-    </action>
-    <action name="MoveResizeTo">
       <x>-0</x>
       <y>0</y>
+      <width>50%</width>
     </action>
   </keybind>
   <keybind key="C-A-Up">
