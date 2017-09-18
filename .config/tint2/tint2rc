@@ -37,7 +37,7 @@ border_color_pressed = #fefefe 100
 # Panel
 #-------------------------------------
 
-panel_items = TBEEEE
+panel_items = TEEEEBE
 panel_size = 100% 30
 panel_margin = 0 0
 panel_padding = 0 0 0
@@ -221,6 +221,16 @@ execp = new
 execp_command = echo -n '<span foreground="#666">pkg </span>' && staty.sh upg
 execp_markup = 1
 execp_interval = 30
+execp_font = Terminus 12
+execp_font_color = #fefefe 100
+execp_padding = 6 0
+execp_background_id = 0
+execp_tooltip =
+
+execp = new
+execp_command = echo -n '<span foreground="#666">net </span>' && staty.sh net
+execp_markup = 1
+execp_interval = 1
 execp_font = Terminus 12
 execp_font_color = #fefefe 100
 execp_padding = 6 0
