@@ -366,7 +366,13 @@
     </action>
   </keybind>
   <keybind key="C-A-Up">
-    <action name="Maximize"/>
+    <action name="UnmaximizeFull"/>
+    <action name="MaximizeVert"/>
+    <action name="MoveResizeTo">
+      <x>center</x>
+      <y>center</y>
+      <width>50%</width>
+    </action>
   </keybind>
   <keybind key="C-A-Down">
     <action name="Maximize"/>
