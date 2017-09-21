@@ -1141,6 +1141,9 @@
     <desktop>5</desktop><focus>yes</focus>
   </application>
   <!-- Send to play desktop -->
+  <application class="obs">
+    <desktop>6</desktop><focus>yes</focus>
+  </application>
   <application title="Popcorn Time">
     <desktop>6</desktop><focus>yes</focus>
   </application>
