@@ -2,9 +2,8 @@
 
 ## About
 
-This repository stores my configuration of [Openbox][openbox], which is *a
-highly configurable, next generation window manager with extensive
-standards support*.
+This repository stores my configuration of [Openbox][openbox], *a highly
+configurable, next generation window manager with extensive standards support*.
 
 ## Getting the files
 
@@ -38,7 +37,7 @@ To easily create and manage links to the files we can use [GNU Stow][stow] as
 follows:
 
 ```sh
-stow -vt ~/.config -S .config
+stow -vt ~ -S .
 ```
 
 [openbox]: http://openbox.org/
