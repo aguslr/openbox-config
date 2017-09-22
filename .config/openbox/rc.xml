@@ -206,12 +206,12 @@
   <keybind key="A-F4">
     <action name="Close"/>
   </keybind>
-  <keybind key="A-Escape">
+  <keybind key="W-Escape">
     <action name="Lower"/>
     <action name="FocusToBottom"/>
     <action name="Unfocus"/>
   </keybind>
-  <keybind key="A-space">
+  <keybind key="W-space">
     <action name="ShowMenu"><menu>client-menu</menu></action>
   </keybind>
 
@@ -698,12 +698,12 @@
       <action name="Unfocus"/>
     </mousebind>
 
-    <mousebind button="A-Up" action="Click">
+    <mousebind button="W-Up" action="Click">
       <action name="Execute">
         <command>sh -c 'changeDesktop.sh next'</command>
       </action>
     </mousebind>
-    <mousebind button="A-Down" action="Click">
+    <mousebind button="W-Down" action="Click">
       <action name="Execute">
         <command>sh -c 'changeDesktop.sh prev'</command>
       </action>
@@ -714,10 +714,10 @@
     <mousebind button="C-A-Down" action="Click">
       <action name="GoToDesktop"><to>previous</to></action>
     </mousebind>
-    <mousebind button="A-S-Up" action="Click">
+    <mousebind button="W-S-Up" action="Click">
       <action name="SendToDesktop"><to>next</to></action>
     </mousebind>
-    <mousebind button="A-S-Down" action="Click">
+    <mousebind button="W-S-Down" action="Click">
       <action name="SendToDesktop"><to>previous</to></action>
     </mousebind>
   </context>
@@ -923,12 +923,12 @@
       </action>
     </mousebind>
 
-    <mousebind button="A-Up" action="Click">
+    <mousebind button="W-Up" action="Click">
       <action name="Execute">
         <command>sh -c 'changeDesktop.sh next'</command>
       </action>
     </mousebind>
-    <mousebind button="A-Down" action="Click">
+    <mousebind button="W-Down" action="Click">
       <action name="Execute">
         <command>sh -c 'changeDesktop.sh prev'</command>
       </action>
