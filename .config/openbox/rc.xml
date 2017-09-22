@@ -1104,7 +1104,7 @@
   <application class="Gnumeric">
     <desktop>5</desktop><focus>yes</focus>
   </application>
-  <application class="Handbrake">
+  <application class="Handbrake*">
     <desktop>5</desktop><focus>yes</focus>
   </application>
   <application class="Inkscape">
