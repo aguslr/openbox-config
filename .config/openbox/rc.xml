@@ -287,6 +287,11 @@
     </action>
   </keybind>
 
+  <!-- Send window to specific desktop -->
+  <keybind key="W-S-Tab">
+    <action name="SendToDesktop"><to>last</to></action>
+  </keybind>
+
   <!-- Focus urgent windows -->
   <keybind key="A-grave">
     <action name="Execute">
