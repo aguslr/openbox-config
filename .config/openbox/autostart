@@ -54,7 +54,8 @@ qtox &
 workrave &
 
 # Set background
-hsetroot -solid '#666666' &
+hsetroot -solid '#666666'
+nitrogen --restore
 
 # Launch panel
 tint2 &
