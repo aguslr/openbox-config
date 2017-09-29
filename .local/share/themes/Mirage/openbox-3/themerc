@@ -1,0 +1,181 @@
+!!------------------------------------------------------------------------
+!! MENU SETTINGS
+!!------------------------------------------------------------------------
+
+!! menu title
+
+menu.title.bg:                                  Flat Solid
+menu.title.bg.color:                            #1c1c1c
+menu.title.text.color:                          #666666
+menu.title.text.justify:                        Left
+
+menu.border.width:                              10
+menu.border.color:                              #1c1c1c
+
+menu.overlap.x:                                 -15
+menu.overlap.y:                                 0
+
+!!------------------------------------------------------------------------
+!! menu items
+
+menu.items.bg:                                  Flat Solid
+menu.items.bg.color:                            #1c1c1c
+menu.items.text.color:                          #e5e5e5
+
+menu.items.justify:                             left
+menu.items.disabled.text.color:                 #666666
+
+menu.items.active.bg:                           Flat Vertical
+menu.items.active.bg.color:                     #048ac7
+menu.items.active.text.color:                   #f3f3f3
+
+!!------------------------------------------------------------------------
+!! menu separator
+
+menu.separator.width:                           1
+menu.separator.padding.width:                   5
+menu.separator.color:                           #666666
+
+
+!!------------------------------------------------------------------------
+!! WINDOW SETTINGS
+!!------------------------------------------------------------------------
+
+!! window title
+
+window.active.title.bg:                         Flat Vertical
+window.active.title.bg.color:                   #111111
+
+window.inactive.title.bg:                       Flat Vertical
+window.inactive.title.bg.color:                 #111111
+
+!!------------------------------------------------------------------------
+!! window text
+
+padding.width:                                  5
+window.label.text.justify:                      left
+
+window.active.label.bg:                         Parentrelative
+window.active.label.bg.color:                   #1c1c1c
+window.active.label.bg.colorTo:                 #1c1c1c
+window.active.label.text.color:                 #f3f3f3
+
+window.inactive.label.bg:                       Parentrelative
+window.inactive.label.bg.color:                 #1c1c1c
+window.inactive.label.bg.colorTo:               #1c1c1c
+window.inactive.label.text.color:               #666666
+
+!!------------------------------------------------------------------------
+!! window borders
+
+border.width:                                   5
+border.color:                                   #1c1c1c
+
+window.client.padding.width:                    0
+
+window.active.client.color:                     #1c1c1c
+window.inactive.client.color:                   #1c1c1c
+
+window.active.border.color:                     #f3f3f3
+window.inactive.border.color:                   #1c1c1c
+
+window.active.title.separator.color:            #111111
+window.inactive.title.separator.color:          #111111
+
+!!------------------------------------------------------------------------
+!! window handle and grip
+
+window.handle.width:                            0
+
+window.active.handle.bg:                        Flat Vertical
+window.active.handle.bg.color:                  #048ac7
+
+window.active.grip.bg:                          Flat Vertical
+window.active.grip.bg.color:                    #111111
+
+window.inactive.handle.bg:                      Flat Vertical
+window.inactive.handle.bg.color:                #048ac7
+
+window.inactive.grip.bg:                        Flat Vertical
+window.inactive.grip.bg.color:                  #111111
+
+
+!!------------------------------------------------------------------------
+!! WINDOW BUTTONS
+!!------------------------------------------------------------------------
+
+!! ACTIVE
+
+window.active.button.unpressed.bg:              Flat Vertical
+window.active.button.unpressed.bg.color:        #111111
+window.active.button.unpressed.image.color:     #666666
+
+window.active.button.pressed.bg:                Flat Vertical
+window.active.button.pressed.bg.color:          #111111
+window.active.button.pressed.image.color:       #f3f3f3
+
+window.active.button.disabled.bg:               Flat Vertical
+window.active.button.disabled.bg.color:         #111111
+window.active.button.disabled.image.color:      #1c1c1c
+
+window.active.button.hover.bg:                  Flat Vertical
+window.active.button.hover.bg.color:            #111111
+window.active.button.hover.bg.colorTo:          #111111
+window.active.button.hover.image.color:         #f3f3f3
+
+window.active.button.toggled.bg:                Flat Vertical
+window.active.button.toggled.bg.color:          #111111
+window.active.button.toggled.image.color:       #666666
+
+
+!!------------------------------------------------------------------------
+!! INACTIVE
+
+window.inactive.button.unpressed.bg:            Flat Vertical
+window.inactive.button.unpressed.bg.color:      #111111
+window.inactive.button.unpressed.image.color:   #666666
+
+window.inactive.button.pressed.bg:              Flat Vertical
+window.inactive.button.pressed.bg.color:        #111111
+window.inactive.button.pressed.image.color:     #e5e5e5
+
+window.inactive.button.disabled.bg:             Flat Vertical
+window.inactive.button.disabled.bg.color:       #111111
+window.inactive.button.disabled.image.color:    #1c1c1c
+
+window.inactive.button.hover.bg:                Flat Vertical
+window.inactive.button.hover.bg.color:          #111111
+window.inactive.button.hover.bg.colorTo:        #111111
+window.inactive.button.hover.image.color:       #e5e5e5
+
+window.inactive.button.toggled.bg:              Flat Vertical
+window.inactive.button.toggled.bg.color:        #111111
+window.inactive.button.toggled.image.color:     #666666
+
+
+!!------------------------------------------------------------------------
+!! OSD SETTINGS
+!!------------------------------------------------------------------------
+
+osd.hilight.bg:                                 Flat
+osd.hilight.bg.color:                           #048ac7
+
+osd.unhilight.bg:                               Flat
+osd.unhilight.bg.color:                         #666666
+
+osd.border.width:                               2
+osd.border.color:                               #f3f3f3
+
+osd.label.text.color:                           #f3f3f3
+
+
+!!------------------------------------------------------------------------
+!! FONTS
+!!------------------------------------------------------------------------
+
+window.active.label.text.font:      shadow=y:shadowtint=0:shadowoffset=0
+window.inactive.label.text.font:    shadow=y:shadowtint=0:shadowoffset=0
+menu.items.font:                    shadow=y:shadowtint=0
+menu.title.text.font:               shadow=y:shadowtint=0
+
+/* vim: set ts=4 sw=4 tw=0 et :*/
