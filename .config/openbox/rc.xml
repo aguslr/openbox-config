@@ -1178,6 +1178,9 @@
   <application class="Steam">
     <desktop>6</desktop><focus>yes</focus>
   </application>
+  <application class="steam.exe">
+    <desktop>6</desktop><focus>yes</focus>
+  </application>
   <!-- Send to virt desktop -->
   <application class="qemu-system-*">
     <desktop>7</desktop><focus>yes</focus>
