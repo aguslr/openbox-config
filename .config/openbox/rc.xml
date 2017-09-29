@@ -1152,9 +1152,6 @@
   <application title="Popcorn Time">
     <desktop>6</desktop><focus>yes</focus>
   </application>
-  <application class="vlc">
-    <desktop>6</desktop><focus>yes</focus>
-  </application>
   <application class="retroarch">
     <desktop>6</desktop><focus>yes</focus>
   </application>
