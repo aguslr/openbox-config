@@ -26,29 +26,11 @@ fi
 # Start udiskie for device automonting
 pgrep -xu "$USER" udiskie >/dev/null || udiskie &
 
-# Start S.M.A.R.T. notifier
-pgrep -xu "$USER" smart-notifier >/dev/null || smart-notifier &
-
-# Start AppArmor notifier
-pgrep -xu "$USER" aa-notify >/dev/null || aa-notify -p -s 1 -w 60 &
-
 # Set volume to 50%
 amixer -q sset Master 50%
 
 # Start gxkb applet
 gxkb &
-# Start Blueman applet
-blueman-applet &
-# Start Update-notifier
-update-notifier &
-# Start Redshift
-redshift-gtk &
-# Start ownCloud client
-owncloud &
-# Start syncthing-gtk
-syncthing-gtk --minimized &
-# Start clipboard manager
-parcellite &
 # Start Pidgin
 pidgin &
 # Start Empathy
