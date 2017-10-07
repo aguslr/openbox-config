@@ -357,6 +357,7 @@
     <action name="MaximizeVert"/>
     <action name="MoveResizeTo">
       <x>0</x>
+      <width>50%</width>
     </action>
   </keybind>
   <keybind key="C-A-Right">
@@ -364,6 +365,7 @@
     <action name="MaximizeVert"/>
     <action name="MoveResizeTo">
       <x>-0</x>
+      <width>50%</width>
     </action>
   </keybind>
   <keybind key="C-A-Up">
@@ -371,6 +373,7 @@
     <action name="MaximizeVert"/>
     <action name="MoveResizeTo">
       <x>center</x>
+      <width>50%</width>
     </action>
   </keybind>
   <keybind key="C-A-Down">
