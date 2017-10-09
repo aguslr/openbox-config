@@ -14,9 +14,13 @@ pgrep -xu "$USER" stalonetray >/dev/null || stalonetray &
 xset s 590 590
 # Start xautolock daemon if login locally
 if [ -z "$XRDP_SESSION" ]; then
-	pgrep -xu "$USER" xautolock >/dev/null || \
-	    xautolock -time 10 -resetsaver -detectsleep \
-	    -locker "i3lock.sh -p 50 -de -I 5" &
+	if ! pgrep -xu "$USER" xautolock >/dev/null; then
+		while true; do
+			xautolock -time 10 -resetsaver -detectsleep \
+			    -locker "i3lock.sh -p 50 -de -I 5"
+			sleep 10
+		done &
+	fi
 fi
 
 # Start udiskie for device automonting
