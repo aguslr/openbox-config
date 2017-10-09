@@ -1173,13 +1173,13 @@
     <desktop>6</desktop><focus>yes</focus>
   </application>
   <application class="Desura">
-    <desktop>6</desktop><focus>yes</focus>
+    <desktop>6</desktop>
   </application>
   <application class="Steam">
-    <desktop>6</desktop><focus>yes</focus>
+    <desktop>6</desktop>
   </application>
   <application class="steam.exe">
-    <desktop>6</desktop><focus>yes</focus>
+    <desktop>6</desktop>
   </application>
   <!-- Send to virt desktop -->
   <application class="qemu-system-*">
