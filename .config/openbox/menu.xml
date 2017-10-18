@@ -5,20 +5,20 @@
         xsi:schemaLocation="http://openbox.org/
                 file:///usr/share/openbox/menu.xsd">
 
-<menu id="exit-menu" label="Exit">
+<menu id="exit-menu" label="E_xit">
   <item label="Restart">
     <action name="Restart" />
   </item>
   <item label="Logout">
     <action name="Exit" />
   </item>
-  <item label="Reboot">
+  <item label="Re_boot">
     <action name="Execute">
       <prompt>Are you sure you want to reboot the system?</prompt>
       <command>sh -c 'systemctl reboot || gksudo reboot'</command>
     </action>
   </item>
-  <item label="PowerOff">
+  <item label="Power_Off">
     <action name="Execute">
       <prompt>Are you sure you want to power off the system?</prompt>
       <command>sh -c 'systemctl poweroff || gksudo halt -p'</command>
@@ -30,13 +30,13 @@
   <item label="Chromium">
     <action name="Execute"><command>chromium</command></action>
   </item>
-  <item label="Chromium (incognito)">
+  <item label="Chromium (_incognito)">
     <action name="Execute"><command>chromium --incognito</command></action>
   </item>
   <item label="Firefox">
     <action name="Execute"><command>firefox</command></action>
   </item>
-  <item label="Firefox (private)">
+  <item label="Firefox (_private)">
     <action name="Execute"><command>firefox --private-window</command></action>
   </item>
 </menu>
@@ -57,7 +57,7 @@
   <item label="Appearance">
     <action name="Execute"><execute>lxappearance</execute></action>
   </item>
-  <item label="Reconfigure">
+  <item label="Re_configure">
     <action name="Reconfigure" />
   </item>
   <separator />
