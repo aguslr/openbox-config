@@ -47,4 +47,8 @@ nitrogen --restore
 # Launch panel
 tint2 &
 
+# Open some windows
+[ -e "$HOME/.tmux/sessions/monitor.sh" ] && \
+    urxvtc -name Monitor -e sh -c "sleep 1; $HOME/.tmux/sessions/monitor.sh && exit"
+
 # vim: set ts=4 sw=4 tw=0 noet :

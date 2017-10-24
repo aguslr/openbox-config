@@ -1036,6 +1036,16 @@
     </position>
   </application>
 
+  <!-- Monitor window -->
+  <application class="URxvt" name="Monitor">
+    <desktop>1</desktop><focus>yes</focus>
+    <fullscreen>yes</fullscreen>
+    <position force="yes">
+      <x>center</x><y>center</y>
+      <monitor>2</monitor>
+    </position>
+  </application>
+
   <!-- Send to www desktop -->
   <application title="Mozilla Firefox">
     <desktop>2</desktop><focus>yes</focus>
