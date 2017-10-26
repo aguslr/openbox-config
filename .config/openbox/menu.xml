@@ -39,6 +39,26 @@
   <item label="Firefox (_private)">
     <action name="Execute"><command>firefox --private-window</command></action>
   </item>
+  <menu id="inet-more-menu" label="more">
+    <item label="Epiphany">
+      <action name="Execute"><command>epiphany</command></action>
+    </item>
+    <item label="Epiphany (private _instance)">
+      <action name="Execute"><command>epiphany --private-instance</command></action>
+    </item>
+    <item label="Midori">
+      <action name="Execute"><command>midori</command></action>
+    </item>
+    <item label="Midori (_private)">
+      <action name="Execute"><command>midori --private</command></action>
+    </item>
+    <item label="Links2">
+      <action name="Execute"><command>xlinks2</command></action>
+    </item>
+    <item label="Links2 (_anonymous)">
+      <action name="Execute"><command>xlinks2 -anonymous -save-url-history 0</command></action>
+    </item>
+  </menu>
 </menu>
 
 <menu id="root-menu" label="Openbox 3">
