@@ -178,4 +178,4 @@ window.inactive.label.text.font:    shadow=y:shadowtint=0:shadowoffset=0
 menu.items.font:                    shadow=y:shadowtint=0
 menu.title.text.font:               shadow=y:shadowtint=0
 
-/* vim: set ts=4 sw=4 tw=0 et :*/
+/* vim: set ft=rc :*/
