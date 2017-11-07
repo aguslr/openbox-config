@@ -16,7 +16,7 @@ xset s 590 590
 if [ -z "$XRDP_SESSION" ]; then
 	pgrep -xu "$USER" xautolock >/dev/null || \
 	    xautolock -time 10 -resetsaver -detectsleep \
-	    -locker "i3lock.sh -p 50 -de -I 5" &
+	    -locker "i3lock.sh -p 50 -eI 5" &
 fi
 
 # Start udiskie for device automonting
