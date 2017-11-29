@@ -1046,91 +1046,9 @@
     </position>
   </application>
 
-  <!-- Send to www desktop -->
-  <application title="Mozilla Firefox">
-    <desktop>2</desktop><focus>yes</focus>
-  </application>
-  <application class="Firefox">
-    <desktop>2</desktop><focus>yes</focus>
-  </application>
-  <application class="Iceweasel">
-    <desktop>2</desktop><focus>yes</focus>
-  </application>
-  <!-- Send to dev desktop -->
-  <application class="Atom">
-    <desktop>3</desktop><focus>yes</focus>
-  </application>
-  <application class="Brackets">
-    <desktop>3</desktop><focus>yes</focus>
-  </application>
-  <application class="Gvim">
-    <desktop>3</desktop><focus>yes</focus>
-  </application>
-  <!-- Send to net desktop -->
-  <application class="Wireshark">
-    <desktop>4</desktop><focus>yes</focus>
-  </application>
-  <!-- Send to edit desktop -->
-  <application class="Abiword">
-    <desktop>5</desktop><focus>yes</focus>
-  </application>
-  <application class="LibreOffice*">
-    <desktop>5</desktop><focus>yes</focus>
-  </application>
-  <application class="Darktable">
-    <desktop>5</desktop><focus>yes</focus>
-  </application>
-  <application class="Gimp*">
-    <desktop>5</desktop><focus>yes</focus>
-  </application>
-  <application class="Gnumeric">
-    <desktop>5</desktop><focus>yes</focus>
-  </application>
-  <application class="Inkscape">
-    <desktop>5</desktop><focus>yes</focus>
-  </application>
-  <application class="Illustrator.exe">
-    <desktop>5</desktop><focus>yes</focus>
-  </application>
-  <application class="Photoshop.exe">
-    <desktop>5</desktop><focus>yes</focus>
-  </application>
-  <!-- Send to play desktop -->
-  <application title="Popcorn Time">
-    <desktop>6</desktop><focus>yes</focus>
-  </application>
-  <application class="retroarch">
-    <desktop>6</desktop><focus>yes</focus>
-  </application>
-  <application class="scummvm">
-    <desktop>6</desktop><focus>yes</focus>
-  </application>
-  <application class="zsnes">
-    <desktop>6</desktop><focus>yes</focus>
-  </application>
-  <application title="PlayOnLinux*">
-    <desktop>6</desktop>
-    <focus>yes</focus>
-    <decor>yes</decor>
-  </application>
-  <application class="Wine">
-    <desktop>6</desktop><focus>yes</focus>
-  </application>
-  <application class="Desura">
-    <desktop>6</desktop>
-  </application>
-  <application class="Steam">
-    <desktop>6</desktop>
-  </application>
-  <application class="steam.exe">
-    <desktop>6</desktop>
-  </application>
-  <!-- Send to virt desktop -->
-  <application class="qemu-system-*">
-    <desktop>7</desktop><focus>yes</focus>
-  </application>
+  <!-- QEMU windows -->
   <application class="Remmina" title="*QEMU*" type="normal">
-    <desktop>7</desktop><focus>yes</focus>
+    <focus>yes</focus>
     <fullscreen>yes</fullscreen>
     <position force="yes">
       <x>center</x><y>center</y>
@@ -1138,18 +1056,20 @@
     </position>
   </application>
   <application class="Vncviewer" title="*QEMU*" type="normal">
-    <desktop>7</desktop><focus>yes</focus>
+    <focus>yes</focus>
     <fullscreen>yes</fullscreen>
     <position force="yes">
       <x>center</x><y>center</y>
       <monitor>2</monitor>
     </position>
   </application>
-  <application class="Virt-manager">
-    <desktop>7</desktop><focus>yes</focus>
+
+  <!-- Wine windows -->
+  <application title="PlayOnLinux*">
+    <decor>yes</decor>
   </application>
-  <application class="VirtualBox">
-    <desktop>7</desktop><focus>yes</focus>
+  <application class="Wine">
+    <decor>yes</decor>
   </application>
 </applications>
 
