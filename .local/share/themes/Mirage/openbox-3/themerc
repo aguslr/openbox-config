@@ -76,7 +76,7 @@ window.client.padding.width:                    0
 window.active.client.color:                     #1c1c1c
 window.inactive.client.color:                   #1c1c1c
 
-window.active.border.color:                     #eeeeec
+window.active.border.color:                     #215d9c
 window.inactive.border.color:                   #1c1c1c
 
 window.active.title.separator.color:            #232729
