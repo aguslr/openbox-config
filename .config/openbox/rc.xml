@@ -329,25 +329,27 @@
     </action>
   </keybind>
   <!-- Move window to edge -->
-  <keybind key="W-S-A-h">
-    <action name="MoveResizeTo">
-      <x>0</x>
-    </action>
-  </keybind>
-  <keybind key="W-S-A-l">
-    <action name="MoveResizeTo">
-      <x>-0</x>
-    </action>
-  </keybind>
-  <keybind key="W-S-A-k">
-    <action name="MoveResizeTo">
-      <y>0</y>
-    </action>
-  </keybind>
-  <keybind key="W-S-A-j">
-    <action name="MoveResizeTo">
-      <y>-0</y>
-    </action>
+  <keybind key="W-e">
+    <keybind key="W-h">
+      <action name="MoveResizeTo">
+        <x>0</x>
+      </action>
+    </keybind>
+    <keybind key="W-l">
+      <action name="MoveResizeTo">
+        <x>-0</x>
+      </action>
+    </keybind>
+    <keybind key="W-k">
+      <action name="MoveResizeTo">
+        <y>0</y>
+      </action>
+    </keybind>
+    <keybind key="W-j">
+      <action name="MoveResizeTo">
+        <y>-0</y>
+      </action>
+    </keybind>
   </keybind>
 
   <!-- Window snapping
