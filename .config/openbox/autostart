@@ -6,6 +6,12 @@
 pgrep -xu "$USER" compton >/dev/null || \
     compton -bcCG -o 0.2 -r 0 -l 5 -t 5
 
+# Dockapps
+wmcpuload &
+wmmemload -b -c &
+wmtemp &
+wmdiskmon -p /dev/mapper/vg01-root -p /dev/mapper/vg02-home &
+
 # Launch systray
 pgrep -xu "$USER" stalonetray >/dev/null || stalonetray &
 
