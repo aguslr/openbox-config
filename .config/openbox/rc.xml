@@ -354,45 +354,47 @@
 
   <!-- Window snapping
        https://wiki.archlinux.org/index.php/Openbox#Window_snapping -->
-  <keybind key="C-A-Left">
-    <action name="UnmaximizeFull"/>
-    <action name="Maximize">
-      <direction>vertical</direction>
-    </action>
-    <action name="MoveResizeTo">
-      <x>0</x>
-      <width>50%</width>
-    </action>
-  </keybind>
-  <keybind key="C-A-Right">
-    <action name="UnmaximizeFull"/>
-    <action name="Maximize">
-      <direction>vertical</direction>
-    </action>
-    <action name="MoveResizeTo">
-      <x>-0</x>
-      <width>50%</width>
-    </action>
-  </keybind>
-  <keybind key="C-A-Up">
-    <action name="UnmaximizeFull"/>
-    <action name="Maximize">
-      <direction>horizontal</direction>
-    </action>
-    <action name="MoveResizeTo">
-      <y>0</y>
-      <height>50%</height>
-    </action>
-  </keybind>
-  <keybind key="C-A-Down">
-    <action name="UnmaximizeFull"/>
-    <action name="Maximize">
-      <direction>horizontal</direction>
-    </action>
-    <action name="MoveResizeTo">
-      <y>-0</y>
-      <height>50%</height>
-    </action>
+  <keybind key="W-e">
+    <keybind key="W-Left">
+      <action name="UnmaximizeFull"/>
+      <action name="Maximize">
+        <direction>vertical</direction>
+      </action>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <width>50%</width>
+      </action>
+    </keybind>
+    <keybind key="W-Right">
+      <action name="UnmaximizeFull"/>
+      <action name="Maximize">
+        <direction>vertical</direction>
+      </action>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <width>50%</width>
+      </action>
+    </keybind>
+    <keybind key="W-Up">
+      <action name="UnmaximizeFull"/>
+      <action name="Maximize">
+        <direction>horizontal</direction>
+      </action>
+      <action name="MoveResizeTo">
+        <y>0</y>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="W-Down">
+      <action name="UnmaximizeFull"/>
+      <action name="Maximize">
+        <direction>horizontal</direction>
+      </action>
+      <action name="MoveResizeTo">
+        <y>-0</y>
+        <height>50%</height>
+      </action>
+    </keybind>
   </keybind>
 
   <!-- Toggle shading -->
