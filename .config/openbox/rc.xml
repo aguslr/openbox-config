@@ -111,7 +111,7 @@
 </dock>
 
 <keyboard>
-  <chainQuitKey>C-g</chainQuitKey>
+  <chainQuitKey>Escape</chainQuitKey>
 
   <keybind key="W-Left">
     <action name="Execute">
