@@ -293,7 +293,7 @@
   </keybind>
 
   <!-- Focus urgent windows -->
-  <keybind key="A-grave">
+  <keybind key="W-grave">
     <action name="Execute">
       <command>sh -c 'focusUrgent.sh'</command>
     </action>
