@@ -1012,11 +1012,7 @@
 </menu>
 
 <applications>
-  <application class="*">
-    <decor>no</decor>
-  </application>
   <application name="popup">
-    <decor>no</decor>
     <shade>no</shade>
     <fullscreen>no</fullscreen>
     <maximized>no</maximized>
@@ -1027,7 +1023,6 @@
     </position>
   </application>
   <application name="gmessage">
-    <decor>no</decor>
     <shade>no</shade>
     <fullscreen>no</fullscreen>
     <maximized>no</maximized>
@@ -1078,14 +1073,6 @@
       <x>center</x><y>center</y>
       <monitor>2</monitor>
     </position>
-  </application>
-
-  <!-- Wine windows -->
-  <application title="PlayOnLinux*">
-    <decor>yes</decor>
-  </application>
-  <application class="Wine">
-    <decor>yes</decor>
   </application>
 </applications>
 
