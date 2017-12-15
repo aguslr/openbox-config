@@ -66,6 +66,7 @@
     <action name="Execute"><command>dmenu_run.sh -p 'Run:'</command></action>
   </item>
   <separator />
+  <!-- This requires the presence of the 'menu' package to work -->
   <menu id="/Debian" />
   <separator />
   <item label="URxvt">
@@ -73,7 +74,6 @@
   </item>
   <menu id="inet-menu" />
   <separator />
-  <!-- This requires the presence of the 'menu' package to work -->
   <item label="Appearance">
     <action name="Execute"><execute>lxappearance</execute></action>
   </item>
