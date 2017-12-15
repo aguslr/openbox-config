@@ -25,7 +25,7 @@
 </placement>
 
 <theme>
-  <name>Mirage</name>
+  <name>Adwaita</name>
   <titleLayout>L</titleLayout>
   <keepBorder>yes</keepBorder>
   <animateIconify>no</animateIconify>
