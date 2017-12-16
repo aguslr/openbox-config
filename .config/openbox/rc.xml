@@ -1012,6 +1012,12 @@
 </menu>
 
 <applications>
+  <!-- Normal windows -->
+  <application type="normal">
+    <maximized>no</maximized>
+  </application>
+
+  <!-- Popup windows -->
   <application name="popup">
     <shade>no</shade>
     <fullscreen>no</fullscreen>
