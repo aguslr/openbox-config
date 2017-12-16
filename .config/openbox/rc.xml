@@ -1028,7 +1028,7 @@
       <monitor>mouse</monitor>
     </position>
   </application>
-  <application name="gmessage">
+  <application class="?message">
     <shade>no</shade>
     <fullscreen>no</fullscreen>
     <maximized>no</maximized>
