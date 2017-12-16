@@ -1019,6 +1019,7 @@
 
   <!-- Popup windows -->
   <application name="popup">
+    <decor>no</decor>
     <shade>no</shade>
     <fullscreen>no</fullscreen>
     <maximized>no</maximized>
@@ -1029,6 +1030,7 @@
     </position>
   </application>
   <application class="?message">
+    <decor>no</decor>
     <shade>no</shade>
     <fullscreen>no</fullscreen>
     <maximized>no</maximized>
@@ -1037,6 +1039,11 @@
       <y>center</y>
       <monitor>mouse</monitor>
     </position>
+  </application>
+
+  <!-- Dialog windows -->
+  <application type="dialog">
+    <decor>no</decor>
   </application>
 
   <!-- GIMP windows -->
