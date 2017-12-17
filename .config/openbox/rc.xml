@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
-
   <resistance>
     <strength>10</strength>
     <screen_edge_strength>20</screen_edge_strength>
   </resistance>
-
   <focus>
     <focusNew>yes</focusNew>
     <followMouse>yes</followMouse>
@@ -15,14 +12,12 @@
     <focusDelay>200</focusDelay>
     <raiseOnFocus>no</raiseOnFocus>
   </focus>
-
   <placement>
     <policy>Smart</policy>
     <center>yes</center>
     <monitor>Mouse</monitor>
     <primaryMonitor>1</primaryMonitor>
   </placement>
-
   <theme>
     <name>Adwaita</name>
     <titleLayout>L</titleLayout>
@@ -65,7 +60,6 @@
       <slant>normal</slant>
     </font>
   </theme>
-
   <desktops>
     <number>9</number>
     <firstdesk>1</firstdesk>
@@ -82,20 +76,17 @@
     </names>
     <popupTime>0</popupTime>
   </desktops>
-
   <resize>
     <drawContents>no</drawContents>
     <popupShow>Nonpixel</popupShow>
     <popupPosition>Center</popupPosition>
   </resize>
-
   <margins>
     <top>0</top>
     <bottom>0</bottom>
     <left>0</left>
     <right>0</right>
   </margins>
-
   <dock>
     <position>BottomLeft</position>
     <floatingX>0</floatingX>
@@ -108,10 +99,8 @@
     <showDelay>300</showDelay>
     <moveButton>Middle</moveButton>
   </dock>
-
   <keyboard>
     <chainQuitKey>Escape</chainQuitKey>
-
     <keybind key="W-Left">
       <action name="Execute">
         <command>sh -c 'changeDesktop.sh prev'</command>
@@ -167,7 +156,6 @@
         <to>9</to>
       </action>
     </keybind>
-
     <!-- Send window to specific desktop -->
     <keybind key="W-S-Left">
       <action name="SendToDesktop">
@@ -226,7 +214,6 @@
         <to>9</to>
       </action>
     </keybind>
-
     <!-- Send window to different monitor -->
     <keybind key="C-W-Left">
       <action name="MoveResizeTo">
@@ -253,7 +240,6 @@
         <monitor>3</monitor>
       </action>
     </keybind>
-
     <keybind key="A-F4">
       <action name="Close"/>
     </keybind>
@@ -267,7 +253,6 @@
         <menu>client-menu</menu>
       </action>
     </keybind>
-
     <keybind key="A-Tab">
       <action name="NextWindow">
         <dialog>none</dialog>
@@ -318,7 +303,7 @@
         </finalactions>
       </action>
     </keybind>
-
+    <keybind key="W-h">
       <action name="DirectionalTargetWindow">
         <direction>left</direction>
       </action>
@@ -338,21 +323,18 @@
         <direction>right</direction>
       </action>
     </keybind>
-
     <!-- Send window to specific desktop -->
     <keybind key="W-S-Tab">
       <action name="SendToDesktop">
         <to>last</to>
       </action>
     </keybind>
-
     <!-- Focus urgent windows -->
     <keybind key="W-grave">
       <action name="Execute">
         <command>sh -c 'focusUrgent.sh'</command>
       </action>
     </keybind>
-
     <!-- Center window -->
     <keybind key="W-S-c">
       <action name="MoveResizeTo">
@@ -360,7 +342,6 @@
         <y>center</y>
       </action>
     </keybind>
-
     <!-- Move window -->
     <keybind key="W-S-h">
       <action name="MoveRelative">
@@ -405,7 +386,6 @@
         </action>
       </keybind>
     </keybind>
-
     <!-- Window snapping -->
     <keybind key="W-e">
       <keybind key="W-Left">
@@ -449,7 +429,6 @@
         </action>
       </keybind>
     </keybind>
-
     <!-- Toggle shading -->
     <keybind key="W-s">
       <action name="If">
@@ -469,7 +448,6 @@
         </else>
       </action>
     </keybind>
-
     <!-- Toggle showing windows from a desktop on all desktops -->
     <keybind key="W-A-1">
       <action name="ForEach">
@@ -687,22 +665,18 @@
         </then>
       </action>
     </keybind>
-
     <!-- Toggle omnipresent -->
     <keybind key="W-o">
       <action name="ToggleOmnipresent"/>
     </keybind>
-
     <!-- Toggle dock autohide -->
     <keybind key="W-t">
       <action name="ToggleDockAutohide"/>
     </keybind>
-
     <!-- Toggle decorations -->
     <keybind key="W-d">
       <action name="ToggleDecorations"/>
     </keybind>
-
     <!-- Toggle fullscreen -->
     <keybind key="W-f">
       <action name="ToggleFullscreen"/>
@@ -711,28 +685,24 @@
     <keybind key="W-m">
       <action name="ToggleMaximizeFull"/>
     </keybind>
-
     <!-- Open menu -->
     <keybind key="A-F1">
       <action name="ShowMenu">
         <menu>root-menu</menu>
       </action>
     </keybind>
-
     <!-- Launch URxvt client -->
     <keybind key="W-Return">
       <action name="Execute">
         <command>urxvtc</command>
       </action>
     </keybind>
-
     <!-- Launch dmenu -->
     <keybind key="A-r">
       <action name="Execute">
         <command>dmenu_run.sh -p 'Run:'</command>
       </action>
     </keybind>
-
     <!-- Lock screen -->
     <keybind key="C-A-l">
       <action name="Execute">
@@ -745,13 +715,11 @@
       </action>
     </keybind>
   </keyboard>
-
   <mouse>
     <dragThreshold>1</dragThreshold>
     <doubleClickTime>500</doubleClickTime>
     <screenEdgeWarpTime>400</screenEdgeWarpTime>
     <screenEdgeWarpMouse>false</screenEdgeWarpMouse>
-
     <context name="Frame">
       <mousebind button="A-Left" action="Press">
         <action name="Focus"/>
@@ -763,7 +731,6 @@
       <mousebind button="A-Left" action="Drag">
         <action name="Move"/>
       </mousebind>
-
       <mousebind button="A-Right" action="Press">
         <action name="Focus"/>
         <action name="Raise"/>
@@ -772,13 +739,11 @@
       <mousebind button="A-Right" action="Drag">
         <action name="Resize"/>
       </mousebind>
-
       <mousebind button="A-Middle" action="Press">
         <action name="Lower"/>
         <action name="FocusToBottom"/>
         <action name="Unfocus"/>
       </mousebind>
-
       <mousebind button="W-Up" action="Click">
         <action name="Execute">
           <command>sh -c 'changeDesktop.sh prev'</command>
@@ -810,7 +775,6 @@
         </action>
       </mousebind>
     </context>
-
     <context name="Titlebar">
       <mousebind button="Left" action="Drag">
         <action name="Move"/>
@@ -818,7 +782,6 @@
       <mousebind button="Left" action="DoubleClick">
         <action name="ToggleMaximize"/>
       </mousebind>
-
       <mousebind button="Up" action="Click">
         <action name="if">
           <shaded>no</shaded>
@@ -840,20 +803,17 @@
         </action>
       </mousebind>
     </context>
-
     <context name="Titlebar Top Right Bottom Left TLCorner TRCorner BRCorner BLCorner">
       <mousebind button="Left" action="Press">
         <action name="Focus"/>
         <action name="Raise"/>
         <action name="Unshade"/>
       </mousebind>
-
       <mousebind button="Middle" action="Press">
         <action name="Lower"/>
         <action name="FocusToBottom"/>
         <action name="Unfocus"/>
       </mousebind>
-
       <mousebind button="Right" action="Press">
         <action name="Focus"/>
         <action name="Raise"/>
@@ -862,7 +822,6 @@
         </action>
       </mousebind>
     </context>
-
     <context name="Top">
       <mousebind button="Left" action="Drag">
         <action name="Resize">
@@ -870,7 +829,6 @@
         </action>
       </mousebind>
     </context>
-
     <context name="Left">
       <mousebind button="Left" action="Drag">
         <action name="Resize">
@@ -878,7 +836,6 @@
         </action>
       </mousebind>
     </context>
-
     <context name="Right">
       <mousebind button="Left" action="Drag">
         <action name="Resize">
@@ -886,14 +843,12 @@
         </action>
       </mousebind>
     </context>
-
     <context name="Bottom">
       <mousebind button="Left" action="Drag">
         <action name="Resize">
           <edge>bottom</edge>
         </action>
       </mousebind>
-
       <mousebind button="Right" action="Press">
         <action name="Focus"/>
         <action name="Raise"/>
@@ -902,7 +857,6 @@
         </action>
       </mousebind>
     </context>
-
     <context name="TRCorner BRCorner TLCorner BLCorner">
       <mousebind button="Left" action="Press">
         <action name="Focus"/>
@@ -913,7 +867,6 @@
         <action name="Resize"/>
       </mousebind>
     </context>
-
     <context name="Client">
       <mousebind button="Left" action="Press">
         <action name="Focus"/>
@@ -928,7 +881,6 @@
         <action name="Raise"/>
       </mousebind>
     </context>
-
     <context name="Icon">
       <mousebind button="Left" action="Press">
         <action name="Focus"/>
@@ -946,7 +898,6 @@
         </action>
       </mousebind>
     </context>
-
     <context name="AllDesktops">
       <mousebind button="Left" action="Press">
         <action name="Focus"/>
@@ -957,7 +908,6 @@
         <action name="ToggleOmnipresent"/>
       </mousebind>
     </context>
-
     <context name="Shade">
       <mousebind button="Left" action="Press">
         <action name="Focus"/>
@@ -967,7 +917,6 @@
         <action name="ToggleShade"/>
       </mousebind>
     </context>
-
     <context name="Iconify">
       <mousebind button="Left" action="Press">
         <action name="Focus"/>
@@ -977,7 +926,6 @@
         <action name="Iconify"/>
       </mousebind>
     </context>
-
     <context name="Maximize">
       <mousebind button="Left" action="Press">
         <action name="Focus"/>
@@ -1008,7 +956,6 @@
         </action>
       </mousebind>
     </context>
-
     <context name="Close">
       <mousebind button="Left" action="Press">
         <action name="Focus"/>
@@ -1019,7 +966,6 @@
         <action name="Close"/>
       </mousebind>
     </context>
-
     <context name="Desktop">
       <mousebind button="Up" action="Click">
         <action name="Execute">
@@ -1031,7 +977,6 @@
           <command>sh -c 'changeDesktop.sh next'</command>
         </action>
       </mousebind>
-
       <mousebind button="W-Up" action="Click">
         <action name="Execute">
           <command>sh -c 'changeDesktop.sh prev'</command>
@@ -1052,7 +997,6 @@
           <to>next</to>
         </action>
       </mousebind>
-
       <mousebind button="Left" action="Press">
         <action name="Focus"/>
         <action name="Raise"/>
@@ -1062,7 +1006,6 @@
         <action name="Raise"/>
       </mousebind>
     </context>
-
     <context name="Root">
       <!-- Menus -->
       <mousebind button="Middle" action="Press">
@@ -1076,7 +1019,6 @@
         </action>
       </mousebind>
     </context>
-
     <context name="MoveResize">
       <mousebind button="Up" action="Click">
         <action name="GoToDesktop">
@@ -1100,7 +1042,6 @@
       </mousebind>
     </context>
   </mouse>
-
   <menu>
     <file>/var/lib/openbox/debian-menu.xml</file>
     <file>menu.xml</file>
@@ -1111,13 +1052,11 @@
     <showIcons>yes</showIcons>
     <manageDesktops>yes</manageDesktops>
   </menu>
-
   <applications>
     <!-- Normal windows -->
     <application type="normal">
       <maximized>no</maximized>
     </application>
-
     <!-- Popup windows -->
     <application name="popup">
       <decor>no</decor>
@@ -1141,12 +1080,10 @@
         <monitor>mouse</monitor>
       </position>
     </application>
-
     <!-- Dialog windows -->
     <application type="dialog">
       <decor>no</decor>
     </application>
-
     <!-- GIMP windows -->
     <application class="Gimp*" name="gimp*" role="gimp-toolbox" type="utility">
       <maximized>vertical</maximized>
@@ -1160,7 +1097,6 @@
         <y>center</y>
       </position>
     </application>
-
     <!-- Monitor window -->
     <application class="URxvt" name="Monitor">
       <desktop>1</desktop>
@@ -1172,7 +1108,6 @@
         <monitor>2</monitor>
       </position>
     </application>
-
     <!-- QEMU windows -->
     <application class="Remmina" title="*QEMU*" type="normal">
       <focus>yes</focus>
@@ -1193,5 +1128,4 @@
       </position>
     </application>
   </applications>
-
 </openbox_config>
