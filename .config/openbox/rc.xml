@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<openbox_config xmlns="http://openbox.org/3.4/rc"
-		xmlns:xi="http://www.w3.org/2001/XInclude">
+<openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
 
 <resistance>
   <strength>10</strength>
@@ -124,83 +123,135 @@
     </action>
   </keybind>
   <keybind key="W-1">
-    <action name="GoToDesktop"><to>1</to></action>
+    <action name="GoToDesktop">
+      <to>1</to>
+    </action>
   </keybind>
   <keybind key="W-2">
-    <action name="GoToDesktop"><to>2</to></action>
+    <action name="GoToDesktop">
+      <to>2</to>
+    </action>
   </keybind>
   <keybind key="W-3">
-    <action name="GoToDesktop"><to>3</to></action>
+    <action name="GoToDesktop">
+      <to>3</to>
+    </action>
   </keybind>
   <keybind key="W-4">
-    <action name="GoToDesktop"><to>4</to></action>
+    <action name="GoToDesktop">
+      <to>4</to>
+    </action>
   </keybind>
   <keybind key="W-5">
-    <action name="GoToDesktop"><to>5</to></action>
+    <action name="GoToDesktop">
+      <to>5</to>
+    </action>
   </keybind>
   <keybind key="W-6">
-    <action name="GoToDesktop"><to>6</to></action>
+    <action name="GoToDesktop">
+      <to>6</to>
+    </action>
   </keybind>
   <keybind key="W-7">
-    <action name="GoToDesktop"><to>7</to></action>
+    <action name="GoToDesktop">
+      <to>7</to>
+    </action>
   </keybind>
   <keybind key="W-8">
-    <action name="GoToDesktop"><to>8</to></action>
+    <action name="GoToDesktop">
+      <to>8</to>
+    </action>
   </keybind>
   <keybind key="W-9">
-    <action name="GoToDesktop"><to>9</to></action>
+    <action name="GoToDesktop">
+      <to>9</to>
+    </action>
   </keybind>
 
   <!-- Send window to specific desktop -->
   <keybind key="W-S-Left">
-    <action name="SendToDesktop"><to>left</to><wrap>no</wrap></action>
+    <action name="SendToDesktop">
+      <to>left</to>
+      <wrap>no</wrap>
+    </action>
   </keybind>
   <keybind key="W-S-Right">
-    <action name="SendToDesktop"><to>right</to><wrap>no</wrap></action>
+    <action name="SendToDesktop">
+      <to>right</to>
+      <wrap>no</wrap>
+    </action>
   </keybind>
   <keybind key="W-S-1">
-    <action name="SendToDesktop"><to>1</to></action>
+    <action name="SendToDesktop">
+      <to>1</to>
+    </action>
   </keybind>
   <keybind key="W-S-2">
-    <action name="SendToDesktop"><to>2</to></action>
+    <action name="SendToDesktop">
+      <to>2</to>
+    </action>
   </keybind>
   <keybind key="W-S-3">
-    <action name="SendToDesktop"><to>3</to></action>
+    <action name="SendToDesktop">
+      <to>3</to>
+    </action>
   </keybind>
   <keybind key="W-S-4">
-    <action name="SendToDesktop"><to>4</to></action>
+    <action name="SendToDesktop">
+      <to>4</to>
+    </action>
   </keybind>
   <keybind key="W-S-5">
-    <action name="SendToDesktop"><to>5</to></action>
+    <action name="SendToDesktop">
+      <to>5</to>
+    </action>
   </keybind>
   <keybind key="W-S-6">
-    <action name="SendToDesktop"><to>6</to></action>
+    <action name="SendToDesktop">
+      <to>6</to>
+    </action>
   </keybind>
   <keybind key="W-S-7">
-    <action name="SendToDesktop"><to>7</to></action>
+    <action name="SendToDesktop">
+      <to>7</to>
+    </action>
   </keybind>
   <keybind key="W-S-8">
-    <action name="SendToDesktop"><to>8</to></action>
+    <action name="SendToDesktop">
+      <to>8</to>
+    </action>
   </keybind>
   <keybind key="W-S-9">
-    <action name="SendToDesktop"><to>9</to></action>
+    <action name="SendToDesktop">
+      <to>9</to>
+    </action>
   </keybind>
 
   <!-- Send window to different monitor -->
   <keybind key="C-W-Left">
-    <action name="MoveResizeTo"><monitor>prev</monitor></action>
+    <action name="MoveResizeTo">
+      <monitor>prev</monitor>
+    </action>
   </keybind>
   <keybind key="C-W-Right">
-    <action name="MoveResizeTo"><monitor>next</monitor></action>
+    <action name="MoveResizeTo">
+      <monitor>next</monitor>
+    </action>
   </keybind>
   <keybind key="C-W-1">
-    <action name="MoveResizeTo"><monitor>1</monitor></action>
+    <action name="MoveResizeTo">
+      <monitor>1</monitor>
+    </action>
   </keybind>
   <keybind key="C-W-2">
-    <action name="MoveResizeTo"><monitor>2</monitor></action>
+    <action name="MoveResizeTo">
+      <monitor>2</monitor>
+    </action>
   </keybind>
   <keybind key="C-W-3">
-    <action name="MoveResizeTo"><monitor>3</monitor></action>
+    <action name="MoveResizeTo">
+      <monitor>3</monitor>
+    </action>
   </keybind>
 
   <keybind key="A-F4">
@@ -212,7 +263,9 @@
     <action name="Unfocus"/>
   </keybind>
   <keybind key="W-space">
-    <action name="ShowMenu"><menu>client-menu</menu></action>
+    <action name="ShowMenu">
+      <menu>client-menu</menu>
+    </action>
   </keybind>
 
   <keybind key="A-Tab">
@@ -289,7 +342,9 @@
 
   <!-- Send window to specific desktop -->
   <keybind key="W-S-Tab">
-    <action name="SendToDesktop"><to>last</to></action>
+    <action name="SendToDesktop">
+      <to>last</to>
+    </action>
   </keybind>
 
   <!-- Focus urgent windows -->
@@ -352,8 +407,7 @@
     </keybind>
   </keybind>
 
-  <!-- Window snapping
-       https://wiki.archlinux.org/index.php/Openbox#Window_snapping -->
+  <!-- Window snapping -->
   <keybind key="W-e">
     <keybind key="W-Left">
       <action name="UnmaximizeFull"/>
@@ -661,7 +715,9 @@
 
   <!-- Open menu -->
   <keybind key="A-F1">
-    <action name="ShowMenu"><menu>root-menu</menu></action>
+    <action name="ShowMenu">
+      <menu>root-menu</menu>
+    </action>
   </keybind>
 
   <!-- Launch URxvt client -->
@@ -685,7 +741,9 @@
     </action>
   </keybind>
   <keybind key="W-A-Escape">
-    <action name="ShowMenu"><menu>exit-menu</menu></action>
+    <action name="ShowMenu">
+      <menu>exit-menu</menu>
+    </action>
   </keybind>
 </keyboard>
 
@@ -733,16 +791,24 @@
       </action>
     </mousebind>
     <mousebind button="C-A-Up" action="Click">
-      <action name="GoToDesktop"><to>previous</to></action>
+      <action name="GoToDesktop">
+        <to>previous</to>
+      </action>
     </mousebind>
     <mousebind button="C-A-Down" action="Click">
-      <action name="GoToDesktop"><to>next</to></action>
+      <action name="GoToDesktop">
+        <to>next</to>
+      </action>
     </mousebind>
     <mousebind button="W-S-Up" action="Click">
-      <action name="SendToDesktop"><to>previous</to></action>
+      <action name="SendToDesktop">
+        <to>previous</to>
+      </action>
     </mousebind>
     <mousebind button="W-S-Down" action="Click">
-      <action name="SendToDesktop"><to>next</to></action>
+      <action name="SendToDesktop">
+        <to>next</to>
+      </action>
     </mousebind>
   </context>
 
@@ -792,37 +858,49 @@
     <mousebind button="Right" action="Press">
       <action name="Focus"/>
       <action name="Raise"/>
-      <action name="ShowMenu"><menu>client-menu</menu></action>
+      <action name="ShowMenu">
+        <menu>client-menu</menu>
+      </action>
     </mousebind>
   </context>
 
   <context name="Top">
     <mousebind button="Left" action="Drag">
-      <action name="Resize"><edge>top</edge></action>
+      <action name="Resize">
+        <edge>top</edge>
+      </action>
     </mousebind>
   </context>
 
   <context name="Left">
     <mousebind button="Left" action="Drag">
-      <action name="Resize"><edge>left</edge></action>
+      <action name="Resize">
+        <edge>left</edge>
+      </action>
     </mousebind>
   </context>
 
   <context name="Right">
     <mousebind button="Left" action="Drag">
-      <action name="Resize"><edge>right</edge></action>
+      <action name="Resize">
+        <edge>right</edge>
+      </action>
     </mousebind>
   </context>
 
   <context name="Bottom">
     <mousebind button="Left" action="Drag">
-      <action name="Resize"><edge>bottom</edge></action>
+      <action name="Resize">
+        <edge>bottom</edge>
+      </action>
     </mousebind>
 
     <mousebind button="Right" action="Press">
       <action name="Focus"/>
       <action name="Raise"/>
-      <action name="ShowMenu"><menu>client-menu</menu></action>
+      <action name="ShowMenu">
+        <menu>client-menu</menu>
+      </action>
     </mousebind>
   </context>
 
@@ -857,12 +935,16 @@
       <action name="Focus"/>
       <action name="Raise"/>
       <action name="Unshade"/>
-      <action name="ShowMenu"><menu>client-menu</menu></action>
+      <action name="ShowMenu">
+        <menu>client-menu</menu>
+      </action>
     </mousebind>
     <mousebind button="Right" action="Press">
       <action name="Focus"/>
       <action name="Raise"/>
-      <action name="ShowMenu"><menu>client-menu</menu></action>
+      <action name="ShowMenu">
+        <menu>client-menu</menu>
+      </action>
     </mousebind>
   </context>
 
@@ -917,10 +999,14 @@
       <action name="ToggleMaximize"/>
     </mousebind>
     <mousebind button="Middle" action="Click">
-      <action name="ToggleMaximize"><direction>vertical</direction></action>
+      <action name="ToggleMaximize">
+        <direction>vertical</direction>
+      </action>
     </mousebind>
     <mousebind button="Right" action="Click">
-      <action name="ToggleMaximize"><direction>horizontal</direction></action>
+      <action name="ToggleMaximize">
+        <direction>horizontal</direction>
+      </action>
     </mousebind>
   </context>
 
@@ -958,10 +1044,14 @@
       </action>
     </mousebind>
     <mousebind button="C-A-Up" action="Click">
-      <action name="GoToDesktop"><to>previous</to></action>
+      <action name="GoToDesktop">
+        <to>previous</to>
+      </action>
     </mousebind>
     <mousebind button="C-A-Down" action="Click">
-      <action name="GoToDesktop"><to>next</to></action>
+      <action name="GoToDesktop">
+        <to>next</to>
+      </action>
     </mousebind>
 
     <mousebind button="Left" action="Press">
@@ -977,25 +1067,37 @@
   <context name="Root">
     <!-- Menus -->
     <mousebind button="Middle" action="Press">
-      <action name="ShowMenu"><menu>client-list-combined-menu</menu></action>
+      <action name="ShowMenu">
+        <menu>client-list-combined-menu</menu>
+      </action>
     </mousebind>
     <mousebind button="Right" action="Press">
-      <action name="ShowMenu"><menu>root-menu</menu></action>
+      <action name="ShowMenu">
+        <menu>root-menu</menu>
+      </action>
     </mousebind>
   </context>
 
   <context name="MoveResize">
     <mousebind button="Up" action="Click">
-      <action name="GoToDesktop"><to>previous</to></action>
+      <action name="GoToDesktop">
+        <to>previous</to>
+      </action>
     </mousebind>
     <mousebind button="Down" action="Click">
-      <action name="GoToDesktop"><to>next</to></action>
+      <action name="GoToDesktop">
+        <to>next</to>
+      </action>
     </mousebind>
     <mousebind button="A-Up" action="Click">
-      <action name="GoToDesktop"><to>previous</to></action>
+      <action name="GoToDesktop">
+        <to>previous</to>
+      </action>
     </mousebind>
     <mousebind button="A-Down" action="Click">
-      <action name="GoToDesktop"><to>next</to></action>
+      <action name="GoToDesktop">
+        <to>next</to>
+      </action>
     </mousebind>
   </context>
 </mouse>
@@ -1062,10 +1164,12 @@
 
   <!-- Monitor window -->
   <application class="URxvt" name="Monitor">
-    <desktop>1</desktop><focus>yes</focus>
+    <desktop>1</desktop>
+    <focus>yes</focus>
     <fullscreen>yes</fullscreen>
     <position force="yes">
-      <x>center</x><y>center</y>
+      <x>center</x>
+      <y>center</y>
       <monitor>2</monitor>
     </position>
   </application>
@@ -1075,7 +1179,8 @@
     <focus>yes</focus>
     <fullscreen>yes</fullscreen>
     <position force="yes">
-      <x>center</x><y>center</y>
+      <x>center</x>
+      <y>center</y>
       <monitor>2</monitor>
     </position>
   </application>
@@ -1083,7 +1188,8 @@
     <focus>yes</focus>
     <fullscreen>yes</fullscreen>
     <position force="yes">
-      <x>center</x><y>center</y>
+      <x>center</x>
+      <y>center</y>
       <monitor>2</monitor>
     </position>
   </application>
