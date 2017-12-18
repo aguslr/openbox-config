@@ -7,13 +7,11 @@ pgrep -xu "$USER" compton >/dev/null || \
     compton -bcCG -o 0.2 -r 0 -l 5 -t 5
 
 # Dockapps
+wmdocker -vertical &
 wmcpuload &
 wmmemload -b -c &
 wmtemp &
 wmdiskmon -p /dev/mapper/vg01-root -p /dev/mapper/vg02-home &
-
-# Launch systray
-pgrep -xu "$USER" stalonetray >/dev/null || stalonetray &
 
 # Change screen timeout
 # https://wiki.archlinux.org/index.php/Display_Power_Management_Signaling#Modifying_DPMS_and_screensaver_settings_using_xset
