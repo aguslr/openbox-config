@@ -1,0 +1,136 @@
+# Name: Adwaita Light Openbox theme
+# Author: aguslr
+# License: GPL-3.0
+
+
+# Menu
+menu.border.color: #787c7d
+
+menu.title.bg: flat solid
+menu.title.bg.color: #33393b
+menu.title.text.color: #919494
+menu.title.text.justify: center
+
+menu.items.bg: flat solid
+menu.items.bg.color: #33393b
+menu.items.text.color: #919494
+menu.items.disabled.text.color: #c3c4c4
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #215d9c
+menu.items.active.text.color: #ffffff
+
+menu.separator.color: #919494
+menu.separator.width: 1
+menu.separator.padding.width: 4
+menu.separator.padding.height: 4
+
+
+# Active window
+window.active.border.color: #898b8b
+
+window.active.title.bg: flat solid
+window.active.title.bg.color: #33393b
+window.active.title.separator.color: #898b8b
+window.active.text.justify: center
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #f1f1f1
+
+window.active.handle.bg: flat solid
+window.active.handle.bg.color: #33393b
+
+window.active.grip.bg: flat solid
+window.active.grip.bg.color: #33393b
+
+window.active.button.unpressed.bg: flat solid
+window.active.button.unpressed.bg.color: #33393b
+window.active.button.unpressed.image.color: #f1f1f1
+
+window.active.button.hover.image.color: #ffffff
+
+window.active.button.pressed.bg: flat solid
+window.active.button.pressed.bg.color: #33393b
+window.active.button.pressed.image.color: #ffffff
+
+window.active.button.disabled.bg: flat solid
+window.active.button.disabled.bg.color: #33393b
+window.active.button.disabled.image.color: #898b8b
+
+
+# Inactive window
+window.inactive.border.color: #787c7d
+
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #33393b
+window.inactive.title.separator.color: #787c7d
+window.inactive.text.justify: center
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #787c7d
+
+window.inactive.handle.bg: flat solid
+window.inactive.handle.bg.color: #33393b
+
+window.inactive.grip.bg: flat solid
+window.inactive.grip.bg.color: #33393b
+
+window.inactive.button.unpressed.bg: flat solid
+window.inactive.button.unpressed.bg.color: #33393b
+window.inactive.button.unpressed.image.color: #787c7d
+
+window.inactive.button.hover.image.color: #215d9c
+
+window.inactive.button.pressed.bg: flat solid
+window.inactive.button.pressed.bg.color: #33393b
+window.inactive.button.pressed.image.color: #215d9c
+
+window.inactive.button.disabled.bg: flat solid
+window.inactive.button.disabled.bg.color: #33393b
+window.inactive.button.disabled.image.color: #787c7d
+
+
+# OSD
+osd.border.width: 0
+osd.border.color: #787c7d
+
+osd.bg: flat solid
+osd.bg.color: #33393b
+osd.label.bg: flat solid
+osd.label.bg.color: #33393b
+osd.label.text.color: #787c7d
+
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: #215d9c
+
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #215d9c
+
+osd.button.unpressed.bg: flat border
+osd.button.unpressed.bg.color: #33393b
+osd.button.unpressed.*.border.color: #787c7d
+
+osd.button.pressed.bg: flat border
+osd.button.pressed.bg.color: #eeeeec
+osd.button.pressed.*.border.color: #eeeeec
+
+osd.button.focused.bg: flat solid border
+osd.button.focused.bg.color: #215d9c
+osd.button.focused.*.border.color: #215d9c
+
+osd.button.focused.box.color: #215d9c
+
+
+# Fonts
+window.active.label.text.font:shadow=n
+window.inactive.label.text.font:shadow=n
+menu.items.font:shadow=n
+menu.title.text.font:shadow=n
+
+# Everything else
+border.width: 1
+padding.width: 8
+padding.height: 8
+window.handle.width: 0
+window.client.padding.width: 0
+window.label.text.justify: center
