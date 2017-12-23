@@ -93,7 +93,7 @@
     <floatingY>0</floatingY>
     <noStrut>yes</noStrut>
     <stacking>Above</stacking>
-    <direction>Vertical</direction>
+    <direction>Horizontal</direction>
     <autoHide>yes</autoHide>
     <hideDelay>300</hideDelay>
     <showDelay>300</showDelay>
