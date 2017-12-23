@@ -2,12 +2,19 @@
 # These things are run when an Openbox X Session is started.
 #
 
-# Launch composite manager
-pgrep -xu "$USER" compton >/dev/null || \
-    compton -bcCG -o 0.2 -r 0 -l 5 -t 5
+# Set background
+hsetroot -solid '#666666'
+nitrogen --restore
 
 # Dockapps
 wmdocker &
+
+# Launch panel
+tint2 &
+
+# Launch composite manager
+pgrep -xu "$USER" compton >/dev/null || \
+    compton -bcCG -o 0.2 -r 0 -l 5 -t 5
 
 # Change screen timeout
 # https://wiki.archlinux.org/index.php/Display_Power_Management_Signaling#Modifying_DPMS_and_screensaver_settings_using_xset
@@ -35,13 +42,6 @@ empathy --start-hidden &
 qtox &
 # Start Workrave
 workrave &
-
-# Set background
-hsetroot -solid '#666666'
-nitrogen --restore
-
-# Launch panel
-tint2 &
 
 # Open some windows
 [ -e "$HOME/.tmux/sessions/monitor.sh" ] && \
