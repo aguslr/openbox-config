@@ -7,7 +7,7 @@ hsetroot -solid '#666666'
 nitrogen --restore
 
 # Dockapps
-wmdocker &
+wmdocker -color '#e8e8e7' &
 
 # Launch panel
 tint2 &
