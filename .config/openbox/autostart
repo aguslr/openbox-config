@@ -32,6 +32,8 @@ pgrep -xu "$USER" udiskie >/dev/null || udiskie &
 # Set volume to 50%
 amixer -q sset Master 50%
 
+# Start fdpowermon
+fdpowermon &
 # Start gxkb applet
 gxkb &
 # Start Pidgin
