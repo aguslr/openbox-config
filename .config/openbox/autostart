@@ -19,11 +19,10 @@ pgrep -xu "$USER" compton >/dev/null || \
 # Change screen timeout
 # https://wiki.archlinux.org/index.php/Display_Power_Management_Signaling#Modifying_DPMS_and_screensaver_settings_using_xset
 xset s 590 590
-# Start xautolock daemon if login locally
+# Start xss-lock if login locally
 if [ -z "$XRDP_SESSION" ]; then
-	pgrep -xu "$USER" xautolock >/dev/null || \
-	    xautolock -time 10 -resetsaver -detectsleep \
-	    -locker "i3lock.sh -p 50 -efI 5" &
+	pgrep -xu "$USER" xss-lock >/dev/null || \
+	    xss-lock -- i3lock.sh -p 50 -efI 5 &
 fi
 
 # Start udiskie for device automonting
