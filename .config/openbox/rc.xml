@@ -957,8 +957,8 @@
   <applications>
     <!-- Normal windows -->
     <application type="normal">
-      <decor>yes</decor>
-      <maximized>no</maximized>
+      <decor>no</decor>
+      <maximized>yes</maximized>
     </application>
     <!-- Popup windows -->
     <application name="popup">
