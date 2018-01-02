@@ -3,7 +3,7 @@
 #
 
 # Set background
-hsetroot -solid '#666666'
+hsetroot -solid '#787c7d'
 nitrogen --restore
 
 # Dockapps
