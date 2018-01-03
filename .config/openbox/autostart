@@ -44,8 +44,4 @@ qtox &
 # Start Workrave
 workrave &
 
-# Open some windows
-[ -e "$HOME/.tmux/sessions/monitor.sh" ] && \
-    urxvtc -name Monitor -e sh -c "sleep 1; $HOME/.tmux/sessions/monitor.sh && exit"
-
 # vim: set ft=sh :

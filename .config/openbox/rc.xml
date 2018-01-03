@@ -1097,17 +1097,6 @@
         <y>center</y>
       </position>
     </application>
-    <!-- Monitor window -->
-    <application class="URxvt" name="Monitor">
-      <desktop>1</desktop>
-      <focus>yes</focus>
-      <fullscreen>yes</fullscreen>
-      <position force="yes">
-        <x>center</x>
-        <y>center</y>
-        <monitor>2</monitor>
-      </position>
-    </application>
     <!-- QEMU windows -->
     <application class="Remmina" title="*QEMU*" type="normal">
       <focus>yes</focus>
