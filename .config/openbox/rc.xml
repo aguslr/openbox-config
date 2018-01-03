@@ -1127,5 +1127,9 @@
         <monitor>2</monitor>
       </position>
     </application>
+    <!-- Steam windows -->
+    <application class="Steam">
+      <maximized>no</maximized>
+    </application>
   </applications>
 </openbox_config>
