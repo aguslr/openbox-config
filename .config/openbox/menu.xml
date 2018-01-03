@@ -10,18 +10,18 @@
     <action name="Restart" />
   </item>
   <item label="Logout">
-    <action name="Exit" />
+    <action name="Execute">
+      <command>sh -c 'zenity --question --title "Exit" --text "Are you sure you want to exit OpenBox?" &amp;&amp; openbox --exit'</command>
+    </action>
   </item>
   <item label="Re_boot">
     <action name="Execute">
-      <prompt>Are you sure you want to reboot the system?</prompt>
-      <command>sh -c 'systemctl reboot || gksudo -- reboot'</command>
+      <command>sh -c 'zenity --question --title "Reboot" --text "Are you sure you want to reboot the system?" &amp;&amp; { systemctl reboot || gksudo -- reboot; }'</command>
     </action>
   </item>
   <item label="Power_Off">
     <action name="Execute">
-      <prompt>Are you sure you want to power off the system?</prompt>
-      <command>sh -c 'systemctl poweroff || gksudo -- halt -p'</command>
+      <command>sh -c 'zenity --question --title "Power Off" --text "Are you sure you want to power off the system?" &amp;&amp; { systemctl poweroff || gksudo -- halt -p; }'</command>
     </action>
   </item>
 </menu>
