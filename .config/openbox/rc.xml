@@ -1120,5 +1120,9 @@
     <application class="Steam">
       <maximized>no</maximized>
     </application>
+    <!-- Tor browser window -->
+    <application class="Tor Browser">
+      <maximized>no</maximized>
+    </application>
   </applications>
 </openbox_config>
