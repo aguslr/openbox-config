@@ -77,8 +77,8 @@
     <popupTime>0</popupTime>
   </desktops>
   <resize>
-    <drawContents>no</drawContents>
-    <popupShow>Nonpixel</popupShow>
+    <drawContents>yes</drawContents>
+    <popupShow>Always</popupShow>
     <popupPosition>Center</popupPosition>
   </resize>
   <margins>
