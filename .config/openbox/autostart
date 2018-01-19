@@ -26,7 +26,7 @@ if [ -z "$XRDP_SESSION" ]; then
 fi
 
 # Start udiskie for device automonting
-pgrep -xu "$USER" udiskie >/dev/null || udiskie &
+pgrep -xu "$USER" udiskie >/dev/null || udiskie --smart-tray &
 
 # Set volume to 50%
 amixer -q sset Master 50%
