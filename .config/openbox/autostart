@@ -33,15 +33,5 @@ amixer -q sset Master 50%
 
 # Start fdpowermon
 fdpowermon &
-# Start gxkb applet
-gxkb &
-# Start Pidgin
-pidgin &
-# Start Empathy
-empathy --start-hidden &
-# Start Tox client
-qtox &
-# Start Workrave
-workrave &
 
 # vim: set ft=sh :
