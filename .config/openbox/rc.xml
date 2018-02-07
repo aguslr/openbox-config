@@ -101,6 +101,16 @@
   </dock>
   <keyboard>
     <chainQuitKey>Escape</chainQuitKey>
+    <keybind key="C-A-Left">
+      <action name="GoToDesktop">
+        <to>previous</to>
+      </action>
+    </keybind>
+    <keybind key="C-A-Right">
+      <action name="GoToDesktop">
+        <to>next</to>
+      </action>
+    </keybind>
     <keybind key="W-Left">
       <action name="Execute">
         <command>sh -c 'changeDesktop.sh prev'</command>
