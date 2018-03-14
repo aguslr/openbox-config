@@ -439,6 +439,12 @@
         </action>
       </keybind>
     </keybind>
+    <keybind key="W-Up">
+      <action name="Maximize"/>
+    </keybind>
+    <keybind key="W-Down">
+      <action name="Unmaximize"/>
+    </keybind>
     <!-- Toggle shading -->
     <keybind key="W-s">
       <action name="If">
