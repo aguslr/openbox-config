@@ -18,7 +18,7 @@ pgrep -xu "$USER" compton >/dev/null || \
 
 # Change screen timeout
 # https://wiki.archlinux.org/index.php/Display_Power_Management_Signaling#Modifying_DPMS_and_screensaver_settings_using_xset
-xset s 590 590
+xset s 600 600
 # Start xss-lock if login locally
 if [ -z "$XRDP_SESSION" ]; then
 	pgrep -xu "$USER" xss-lock >/dev/null || \
