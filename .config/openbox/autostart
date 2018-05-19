@@ -10,7 +10,7 @@ nitrogen --restore
 wmdocker -color '#e8e8e7' &
 
 # Launch panel
-tint2 &
+tint2 -c "${XDG_CONFIG_HOME:-$HOME/.config}/tint2/tint2rc_openbox" &
 
 # Launch composite manager
 pgrep -xu "$USER" compton >/dev/null || \
