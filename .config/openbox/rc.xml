@@ -1071,6 +1071,7 @@
   <applications>
     <!-- Normal windows -->
     <application type="normal">
+      <decor>no</decor>
       <maximized>no</maximized>
     </application>
     <!-- Popup windows -->
