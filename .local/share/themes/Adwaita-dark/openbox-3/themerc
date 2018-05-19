@@ -4,7 +4,7 @@
 
 
 # Menu
-menu.border.color: #787c7d
+menu.border.color: #33393b
 
 menu.title.bg: flat solid
 menu.title.bg.color: #33393b
@@ -59,15 +59,15 @@ window.active.button.disabled.image.color: #898b8b
 
 
 # Inactive window
-window.inactive.border.color: #787c7d
+window.inactive.border.color: #33393b
 
 window.inactive.title.bg: flat solid
 window.inactive.title.bg.color: #33393b
-window.inactive.title.separator.color: #787c7d
+window.inactive.title.separator.color: #33393b
 window.inactive.text.justify: center
 
 window.inactive.label.bg: parentrelative
-window.inactive.label.text.color: #787c7d
+window.inactive.label.text.color: #33393b
 
 window.inactive.handle.bg: flat solid
 window.inactive.handle.bg.color: #33393b
@@ -77,7 +77,7 @@ window.inactive.grip.bg.color: #33393b
 
 window.inactive.button.unpressed.bg: flat solid
 window.inactive.button.unpressed.bg.color: #33393b
-window.inactive.button.unpressed.image.color: #787c7d
+window.inactive.button.unpressed.image.color: #33393b
 
 window.inactive.button.hover.image.color: #215d9c
 
@@ -87,7 +87,7 @@ window.inactive.button.pressed.image.color: #215d9c
 
 window.inactive.button.disabled.bg: flat solid
 window.inactive.button.disabled.bg.color: #33393b
-window.inactive.button.disabled.image.color: #787c7d
+window.inactive.button.disabled.image.color: #33393b
 
 
 # OSD
