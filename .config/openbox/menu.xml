@@ -68,7 +68,6 @@
   <separator />
   <!-- This requires the presence of the 'menu' package to work -->
   <menu id="/Debian" />
-  <separator />
   <item label="URxvt">
     <action name="Execute"><command>urxvtc</command></action>
   </item>
