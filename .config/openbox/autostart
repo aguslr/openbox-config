@@ -7,7 +7,7 @@ hsetroot -solid '#787c7d'
 nitrogen --restore
 
 # Dockapps
-wmdocker -color '#e8e8e7' &
+wmdocker -color '#33393b' &
 
 # Launch panel
 tint2 -c "${XDG_CONFIG_HOME:-$HOME/.config}/tint2/tint2rc_openbox" &
