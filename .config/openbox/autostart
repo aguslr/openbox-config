@@ -3,7 +3,7 @@
 #
 
 # Set background
-hsetroot -solid '#787c7d'
+hsetroot -solid '#898b8b'
 nitrogen --restore
 
 # Launch panel
