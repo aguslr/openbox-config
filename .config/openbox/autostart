@@ -6,11 +6,10 @@
 hsetroot -solid '#787c7d'
 nitrogen --restore
 
-# Dockapps
-wmdocker -color '#33393b' &
-
 # Launch panel
 tint2 -c "${XDG_CONFIG_HOME:-$HOME/.config}/tint2/ob_taskbar" &
+# Launch systray
+tint2 -c "${XDG_CONFIG_HOME:-$HOME/.config}/tint2/ob_systray" &
 
 # Launch composite manager
 pgrep -xu "$USER" compton >/dev/null || \
