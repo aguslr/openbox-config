@@ -109,10 +109,10 @@ task_active_background_id = 0
 task_urgent_background_id = 0
 task_iconified_background_id = 0
 mouse_left = toggle_iconify
-mouse_middle = none
-mouse_right = none
+mouse_middle = maximize_restore
+mouse_right = shade
 mouse_scroll_up = none
-mouse_scroll_down = none
+mouse_scroll_down =  none
 
 
 #-------------------------------------
