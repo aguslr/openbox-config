@@ -58,6 +58,12 @@
     <item label="Links2 (_anonymous)">
       <action name="Execute"><command>xlinks2 -anonymous -save-url-history 0</command></action>
     </item>
+    <item label="Surf">
+      <action name="Execute"><command>surf</command></action>
+    </item>
+    <item label="Surf (_no-cookies)">
+      <action name="Execute"><command>surf -c /dev/null</command></action>
+    </item>
   </menu>
 </menu>
 
