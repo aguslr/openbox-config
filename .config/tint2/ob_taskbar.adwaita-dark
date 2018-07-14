@@ -14,22 +14,12 @@ border_color_pressed = #787c7d 100
 
 # Background 2
 rounded = 0
-border_width = 0
-background_color = #33393b 100
-border_color = #224f55 0
-background_color_hover = #33393b 100
-border_color_hover = #224f55 0
-background_color_pressed = #33393b 100
-border_color_pressed = #224f55 0
-
-# Background 3
-rounded = 0
-border_width = 0
-background_color = #e8e8e7 100
-border_color = #ffffff 100
-background_color_hover = #4a90d9 32
+border_width = 1
+background_color = #2e3436 100
+border_color = #c3c4c4 100
+background_color_hover = #2e3436 100
 border_color_hover = #ffffff 100
-background_color_pressed = #4a90d9 32
+background_color_pressed = #2e3436 100
 border_color_pressed = #ffffff 100
 
 
@@ -68,14 +58,14 @@ mouse_pressed_icon_asb = 100 0 0
 taskbar_mode = single_desktop
 taskbar_padding = 0 0 0
 taskbar_background_id = 1
-taskbar_active_background_id = 2
+taskbar_active_background_id = 0
 taskbar_name = 1
 taskbar_hide_inactive_tasks = 0
 taskbar_hide_different_monitor = 0
 taskbar_always_show_all_desktop_tasks = 0
 taskbar_name_padding = 8 2 8
-taskbar_name_background_id = 2
-taskbar_name_active_background_id = 2
+taskbar_name_background_id = 0
+taskbar_name_active_background_id = 0
 taskbar_name_font = Terminus 12
 taskbar_name_font_color = #f4f4f4 100
 taskbar_name_active_font_color = #f4f4f4 100
@@ -135,3 +125,15 @@ clock_rclick_command =
 clock_mclick_command = 
 clock_uwheel_command = 
 clock_dwheel_command = 
+
+
+#-------------------------------------
+# Tooltip
+#-------------------------------------
+
+tooltip_padding = 8 8
+tooltip_show_timeout = 1
+tooltip_hide_timeout = 0
+tooltip_background_id = 2
+tooltip_font_color = #cbd2d9 100
+tooltip_font = Terminus 10
