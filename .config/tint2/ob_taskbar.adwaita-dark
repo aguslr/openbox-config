@@ -109,7 +109,7 @@ mouse_scroll_down = none
 # Clock
 #-------------------------------------
 
-time1_format = %a, %d %b %H:%M
+time1_format = %H:%M:%S
 time2_format = 
 time1_font = Terminus 12
 time1_timezone = 
@@ -118,7 +118,7 @@ time2_font = Terminus 12
 clock_font_color = #f4f4f4 100
 clock_padding = 6 0
 clock_background_id = 0
-clock_tooltip = 
+clock_tooltip = %A, %d %b %H:%M
 clock_tooltip_timezone = 
 clock_lclick_command = gsimplecal
 clock_rclick_command = 
