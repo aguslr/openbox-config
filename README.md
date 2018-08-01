@@ -40,5 +40,13 @@ follows:
 stow -vt ~ -S .
 ```
 
+Or simply, using [Make][]:
+
+```sh
+make install
+```
+
+
+[make]: https://www.gnu.org/software/make/
 [openbox]: http://openbox.org/
 [stow]: https://www.gnu.org/software/stow/
