@@ -42,6 +42,9 @@ xbindkeys -n -f ~/.xbindkeysrc &
 # Start Terminal daemon
 pgrep -xu "$USER" urxvtd >/dev/null || urxvtd -q -o -f
 
+# Generate color files
+getXcolor.sh --generate all
+
 # Set background
 hsetroot -solid '#898b8b'
 nitrogen --restore
