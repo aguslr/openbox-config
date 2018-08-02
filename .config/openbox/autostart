@@ -43,4 +43,10 @@ amixer -q sset Master 50%
 # Start fdpowermon
 fdpowermon &
 
+# Load local configuration
+# shellcheck source=/dev/null
+[ -r "${XDG_CONFIG_HOME:-$HOME/.config/}openbox/autostart.local" ] && \
+	. "${XDG_CONFIG_HOME:-$HOME/.config/}openbox/autostart.local"
+
+
 # vim: set ft=sh :
