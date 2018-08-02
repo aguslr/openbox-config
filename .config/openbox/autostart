@@ -17,6 +17,10 @@ disper --resolution=auto --extend
 # Set X Server properties
 xrdb ~/.Xdefaults
 
+# Load color profile
+xcalib -d :0 ~/.color/icc/screen0.icm 2>/dev/null
+xcalib -d :1 ~/.color/icc/screen1.icm 2>/dev/null
+
 # Set background
 hsetroot -solid '#898b8b'
 nitrogen --restore
