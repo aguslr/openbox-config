@@ -39,6 +39,9 @@ unclutter -root -visible -noevents &
 # Start XbindKeys
 xbindkeys -n -f ~/.xbindkeysrc &
 
+# Start Terminal daemon
+pgrep -xu "$USER" urxvtd >/dev/null || urxvtd -q -o -f
+
 # Set background
 hsetroot -solid '#898b8b'
 nitrogen --restore
