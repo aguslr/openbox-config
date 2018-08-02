@@ -14,6 +14,9 @@ fi
 # Configure monitors
 disper --resolution=auto --extend
 
+# Set X Server properties
+xrdb ~/.Xdefaults
+
 # Set background
 hsetroot -solid '#898b8b'
 nitrogen --restore
