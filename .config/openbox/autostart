@@ -11,6 +11,8 @@ else
 		git checkout master 2>/dev/null && openbox --reconfigure)
 fi
 
+# Configure monitors
+disper --resolution=auto --extend
 
 # Set background
 hsetroot -solid '#898b8b'
