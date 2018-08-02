@@ -36,6 +36,9 @@ synclient TapButton1=1 TapButton2=2 TapButton3=3 HorizEdgeScroll=1 VertEdgeScrol
 # Hide mouse cursor when not used
 unclutter -root -visible -noevents &
 
+# Start XbindKeys
+xbindkeys -n -f ~/.xbindkeysrc &
+
 # Set background
 hsetroot -solid '#898b8b'
 nitrogen --restore
