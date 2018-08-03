@@ -1159,6 +1159,10 @@
         <monitor>2</monitor>
       </position>
     </application>
+    <!-- Pidgin windows -->
+    <application class="Pidgin">
+      <maximized>no</maximized>
+    </application>
     <!-- Steam windows -->
     <application class="Steam">
       <maximized>no</maximized>
