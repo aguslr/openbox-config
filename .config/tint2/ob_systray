@@ -5,12 +5,12 @@
 # Background 1
 rounded = 0
 border_width = 0
-background_color = #232729 80
-border_color = #232729 80
-background_color_hover = #232729 90
-border_color_hover = #232729 90
-background_color_pressed = #e8e8e7 90
-border_color_pressed = #232729 90
+background_color = #232729 100
+border_color = #232729 100
+background_color_hover = #232729 100
+border_color_hover = #232729 100
+background_color_pressed = #232729 100
+border_color_pressed = #232729 100
 
 
 #-------------------------------------
@@ -21,9 +21,9 @@ panel_items = EFS
 panel_size = 100% 32
 panel_margin = 0 0
 panel_padding = 0 0 0
-panel_background_id = 0
+panel_background_id = 1
 wm_menu = 0
-panel_dock = 0
+panel_dock = 1
 panel_position = bottom center horizontal
 panel_layer = bottom
 panel_monitor = 1
@@ -67,7 +67,7 @@ execp_markup = 1
 execp_background_id = 0
 execp_padding = 8 2 8
 execp_lclick_command = staty.sh mpd toggle
-execp_mclick_command = staty.sh mpd stop
+execp_mclick_command = 
 execp_rclick_command = urxvtc -name popup -e ncmpcpp
 execp_uwheel_command = staty.sh mpd prev
 execp_dwheel_command = staty.sh mpd next
