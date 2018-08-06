@@ -736,7 +736,7 @@
     <!-- Launch dmenu -->
     <keybind key="A-r">
       <action name="Execute">
-        <command>dmenu_run.sh -p 'Run:'</command>
+        <command>dmenu_run -p 'Run:'</command>
       </action>
     </keybind>
     <!-- Lock screen -->
