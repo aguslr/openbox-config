@@ -36,8 +36,8 @@ synclient TapButton1=1 TapButton2=2 TapButton3=3 HorizEdgeScroll=1 VertEdgeScrol
 # Hide mouse cursor when not used
 unclutter -root -visible -noevents &
 
-# Start XbindKeys
-xbindkeys -n -f ~/.xbindkeysrc &
+# Start sxhkd
+sxhkd -c "${XDG_CONFIG_HOME:-$HOME/.config}/sxhkd/sxhkdrc" &
 
 # Start Terminal daemon
 pgrep -xu "$USER" urxvtd >/dev/null || urxvtd -q -o -f
