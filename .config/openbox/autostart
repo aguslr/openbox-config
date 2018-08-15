@@ -4,10 +4,10 @@
 
 # Use different git branch depending on screen height
 if [ "$(xdpyinfo | awk '/dimensions/ {print $2}' | awk -Fx '{print $2}')" -lt 800 ]; then
-	(cd "${XDG_CONFIG_HOME:-$HOME/.config/}openbox" && \
+	(cd "${XDG_CONFIG_HOME:-$HOME/.config}/openbox" && \
 		git checkout tabbed 2>/dev/null && openbox --reconfigure)
 else
-	(cd "${XDG_CONFIG_HOME:-$HOME/.config/}openbox" && \
+	(cd "${XDG_CONFIG_HOME:-$HOME/.config}/openbox" && \
 		git checkout master 2>/dev/null && openbox --reconfigure)
 fi
 
@@ -78,8 +78,8 @@ fdpowermon &
 
 # Load local configuration
 # shellcheck source=/dev/null
-[ -r "${XDG_CONFIG_HOME:-$HOME/.config/}openbox/autostart.local" ] && \
-	. "${XDG_CONFIG_HOME:-$HOME/.config/}openbox/autostart.local"
+[ -r "${XDG_CONFIG_HOME:-$HOME/.config}/openbox/autostart.local" ] && \
+	. "${XDG_CONFIG_HOME:-$HOME/.config}/openbox/autostart.local"
 
 
 # vim: set ft=sh :
