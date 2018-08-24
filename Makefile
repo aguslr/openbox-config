@@ -1,12 +1,16 @@
 TARGET = $(HOME)
 .PHONY = all install clean uninstall test update
 
+DIRS := $(TARGET)/.config/openbox \
+	$(TARGET)/.config/tint2 \
+	$(TARGET)/.local/share/themes \
 
 # Installing #
 
 all: install
 
 install:
+	-@$(foreach var,$(DIRS),mkdir -p $(var);)
 	-@stow --verbose --target=$(TARGET) -S .
 
 
@@ -16,6 +20,7 @@ clean: uninstall
 
 uninstall: $(TARGET)
 	-@stow --verbose --target=$(TARGET) -D .
+	-@$(foreach var,$(DIRS),rmdir -p $(var) 2>/dev/null || true;)
 
 
 # Testing #
