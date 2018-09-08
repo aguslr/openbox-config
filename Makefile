@@ -1,8 +1,7 @@
 TARGET = $(HOME)
 .PHONY = all install clean uninstall test update
 
-DIRS := $(TARGET)/.config/openbox \
-	$(TARGET)/.config/tint2 \
+DIRS := $(TARGET)/.config/tint2 \
 	$(TARGET)/.local/share/themes \
 
 # Installing #
