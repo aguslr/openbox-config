@@ -61,6 +61,7 @@ execp = new
 execp_command = staty.sh mpd
 execp_interval = 1
 execp_has_icon = 0
+execp_tooltip = 
 execp_font = Terminus 12
 execp_font_color = #eeeeec 100
 execp_markup = 1
