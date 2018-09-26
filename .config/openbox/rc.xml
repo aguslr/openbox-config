@@ -260,7 +260,9 @@
     </keybind>
     <keybind key="A-Tab">
       <action name="NextWindow">
+        <bar>no</bar>
         <dialog>list</dialog>
+        <raise>yes</raise>
         <finalactions>
           <action name="Focus"/>
           <action name="Raise"/>
@@ -270,7 +272,9 @@
     </keybind>
     <keybind key="A-S-Tab">
       <action name="PreviousWindow">
+        <bar>no</bar>
         <dialog>list</dialog>
+        <raise>yes</raise>
         <finalactions>
           <action name="Focus"/>
           <action name="Raise"/>
