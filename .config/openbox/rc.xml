@@ -283,33 +283,8 @@
       </action>
     </keybind>
     <keybind key="W-Tab">
-      <action name="NextWindow">
-        <dialog>none</dialog>
-        <allDesktops>yes</allDesktops>
-        <finalactions>
-          <action name="If">
-            <query>
-              <desktop>current</desktop>
-            </query>
-            <then>
-              <action name="GoToDesktop">
-                <to>last</to>
-              </action>
-            </then>
-            <else>
-              <action name="If">
-                <query>
-                  <title>*</title>
-                </query>
-                <then>
-                  <action name="Focus"/>
-                  <action name="Raise"/>
-                  <action name="Unshade"/>
-                </then>
-              </action>
-            </else>
-          </action>
-        </finalactions>
+      <action name="GoToDesktop">
+        <to>last</to>
       </action>
     </keybind>
     <keybind key="W-h">
