@@ -22,7 +22,7 @@ xcalib -d :0 ~/.color/icc/screen0.icm 2>/dev/null
 xcalib -d :1 ~/.color/icc/screen1.icm 2>/dev/null
 
 # Load custom Xmodmap
-xmodmap ~/.Xmodmap
+[ -f "$HOME/.Xmodmap" ] && xmodmap "$HOME/.Xmodmap"
 
 # Bind Caps Lock to Escape
 xcape -e 'Caps_Lock=Escape'
