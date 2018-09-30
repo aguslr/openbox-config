@@ -53,6 +53,9 @@
       <item label="Surf (_no-cookies)">
         <action name="Execute"><command>surf -c /dev/null</command></action>
       </item>
+      <item label="_Tor Browser">
+        <action name="Execute"><command>torbrowser-launcher</command></action>
+      </item>
     </menu>
   </menu>
   <separator />
