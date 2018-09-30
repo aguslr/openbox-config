@@ -5,68 +5,6 @@
         xsi:schemaLocation="http://openbox.org/
                 file:///usr/share/openbox/menu.xsd">
 
-<menu id="exit-menu" label="E_xit">
-  <item label="Restart">
-    <action name="Restart" />
-  </item>
-  <item label="Logout">
-    <action name="Execute">
-      <command>sh -c 'zenity --question --title "Exit" --text "Are you sure you want to exit OpenBox?" &amp;&amp; openbox --exit'</command>
-    </action>
-  </item>
-  <item label="Re_boot">
-    <action name="Execute">
-      <command>sh -c 'zenity --question --title "Reboot" --text "Are you sure you want to reboot the system?" &amp;&amp; { systemctl reboot || gksudo -- reboot; }'</command>
-    </action>
-  </item>
-  <item label="Power_Off">
-    <action name="Execute">
-      <command>sh -c 'zenity --question --title "Power Off" --text "Are you sure you want to power off the system?" &amp;&amp; { systemctl poweroff || gksudo -- halt -p; }'</command>
-    </action>
-  </item>
-</menu>
-
-<menu id="inet-menu" label="Internet">
-  <item label="Chromium">
-    <action name="Execute"><command>chromium</command></action>
-  </item>
-  <item label="Chromium (_incognito)">
-    <action name="Execute"><command>chromium --incognito</command></action>
-  </item>
-  <item label="Firefox">
-    <action name="Execute"><command>firefox</command></action>
-  </item>
-  <item label="Firefox (_private)">
-    <action name="Execute"><command>firefox --private-window</command></action>
-  </item>
-  <menu id="inet-more-menu" label="more">
-    <item label="Epiphany">
-      <action name="Execute"><command>epiphany</command></action>
-    </item>
-    <item label="Epiphany (private _instance)">
-      <action name="Execute"><command>epiphany --private-instance</command></action>
-    </item>
-    <item label="Midori">
-      <action name="Execute"><command>midori</command></action>
-    </item>
-    <item label="Midori (_private)">
-      <action name="Execute"><command>midori --private</command></action>
-    </item>
-    <item label="Links2">
-      <action name="Execute"><command>xlinks2</command></action>
-    </item>
-    <item label="Links2 (_anonymous)">
-      <action name="Execute"><command>xlinks2 -anonymous -save-url-history 0</command></action>
-    </item>
-    <item label="Surf">
-      <action name="Execute"><command>surf</command></action>
-    </item>
-    <item label="Surf (_no-cookies)">
-      <action name="Execute"><command>surf -c /dev/null</command></action>
-    </item>
-  </menu>
-</menu>
-
 <menu id="root-menu" label="Openbox 3">
   <item label="Run...">
     <action name="Execute"><command>dmenu_run -p 'Run:'</command></action>
@@ -77,7 +15,46 @@
   <item label="URxvt">
     <action name="Execute"><command>urxvtc</command></action>
   </item>
-  <menu id="inet-menu" />
+  <menu id="inet-menu" label="Internet">
+    <item label="Chromium">
+      <action name="Execute"><command>chromium</command></action>
+    </item>
+    <item label="Chromium (_incognito)">
+      <action name="Execute"><command>chromium --incognito</command></action>
+    </item>
+    <item label="Firefox">
+      <action name="Execute"><command>firefox</command></action>
+    </item>
+    <item label="Firefox (_private)">
+      <action name="Execute"><command>firefox --private-window</command></action>
+    </item>
+    <menu id="inet-more-menu" label="more">
+      <item label="Epiphany">
+        <action name="Execute"><command>epiphany</command></action>
+      </item>
+      <item label="Epiphany (private _instance)">
+        <action name="Execute"><command>epiphany --private-instance</command></action>
+      </item>
+      <item label="Midori">
+        <action name="Execute"><command>midori</command></action>
+      </item>
+      <item label="Midori (_private)">
+        <action name="Execute"><command>midori --private</command></action>
+      </item>
+      <item label="Links2">
+        <action name="Execute"><command>xlinks2</command></action>
+      </item>
+      <item label="Links2 (_anonymous)">
+        <action name="Execute"><command>xlinks2 -anonymous -save-url-history 0</command></action>
+      </item>
+      <item label="Surf">
+        <action name="Execute"><command>surf</command></action>
+      </item>
+      <item label="Surf (_no-cookies)">
+        <action name="Execute"><command>surf -c /dev/null</command></action>
+      </item>
+    </menu>
+  </menu>
   <separator />
   <item label="Appearance">
     <action name="Execute"><execute>lxappearance</execute></action>
@@ -88,7 +65,26 @@
   <separator />
   <menu id="client-list-menu" />
   <separator />
-  <menu id="exit-menu"/>
+  <menu id="exit-menu" label="E_xit">
+    <item label="Restart">
+      <action name="Restart" />
+    </item>
+    <item label="Logout">
+      <action name="Execute">
+        <command>sh -c 'zenity --question --title "Exit" --text "Are you sure you want to exit OpenBox?" &amp;&amp; openbox --exit'</command>
+      </action>
+    </item>
+    <item label="Re_boot">
+      <action name="Execute">
+        <command>sh -c 'zenity --question --title "Reboot" --text "Are you sure you want to reboot the system?" &amp;&amp; { systemctl reboot || gksudo -- reboot; }'</command>
+      </action>
+    </item>
+    <item label="Power_Off">
+      <action name="Execute">
+        <command>sh -c 'zenity --question --title "Power Off" --text "Are you sure you want to power off the system?" &amp;&amp; { systemctl poweroff || gksudo -- halt -p; }'</command>
+      </action>
+    </item>
+  </menu>
 </menu>
 
 </openbox_menu>
