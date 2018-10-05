@@ -1137,6 +1137,16 @@
     <application class="Pidgin">
       <maximized>no</maximized>
     </application>
+    <application class="Pidgin" role="conversation">
+      <desktop>all</desktop>
+      <layer>above</layer>
+      <position force="yes">
+        <monitor>1</monitor>
+        <x>-10</x>
+        <y>-40</y>
+      </position>
+      <skip_taskbar>yes</skip_taskbar>
+    </application>
     <!-- Steam windows -->
     <application class="Steam">
       <maximized>no</maximized>
