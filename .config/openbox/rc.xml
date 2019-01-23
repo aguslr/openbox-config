@@ -704,7 +704,7 @@
     <!-- Launch URxvt client -->
     <keybind key="W-Return">
       <action name="Execute">
-        <command>urxvtc</command>
+        <command>sh -c 'urxvtc || urxvt'</command>
       </action>
     </keybind>
     <!-- Launch dmenu -->

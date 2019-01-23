@@ -69,6 +69,6 @@ execp_background_id = 0
 execp_padding = 8 2 8
 execp_lclick_command = staty.sh mpd toggle
 execp_mclick_command = 
-execp_rclick_command = urxvtc -name popup -e ncmpcpp
+execp_rclick_command = sh -c 'urxvtc -name popup -e ncmpcpp || urxvt -name popup -e ncmpcpp'
 execp_uwheel_command = staty.sh mpd prev
 execp_dwheel_command = staty.sh mpd next

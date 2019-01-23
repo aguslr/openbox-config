@@ -13,7 +13,7 @@
   <!-- This requires the presence of the 'menu' package to work -->
   <menu id="/Debian" />
   <item label="_URxvt">
-    <action name="Execute"><command>urxvtc</command></action>
+    <action name="Execute"><command>sh -c 'urxvtc || urxvt'</command></action>
   </item>
   <menu id="inet-menu" label="_Internet">
     <item label="_Chromium">
