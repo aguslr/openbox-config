@@ -680,11 +680,11 @@
       <action name="ToggleOmnipresent"/>
     </keybind>
     <!-- Toggle dock autohide -->
-    <keybind key="W-t">
+    <keybind key="W-d">
       <action name="ToggleDockAutohide"/>
     </keybind>
-    <!-- Toggle decorations -->
-    <keybind key="W-d">
+    <!-- Toggle titlebar -->
+    <keybind key="W-t">
       <action name="ToggleDecorations"/>
     </keybind>
     <!-- Toggle fullscreen -->
