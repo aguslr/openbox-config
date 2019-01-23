@@ -101,6 +101,32 @@
   </dock>
   <keyboard>
     <chainQuitKey>Escape</chainQuitKey>
+    <!-- Change desktops -->
+    <keybind key="C-A-d" chroot="true">
+      <keybind key="Up">
+        <action name="GoToDesktop">
+          <to>up</to>
+        </action>
+      </keybind>
+      <keybind key="Down">
+        <action name="GoToDesktop">
+          <to>down</to>
+        </action>
+      </keybind>
+      <keybind key="Left">
+        <action name="GoToDesktop">
+          <to>left</to>
+        </action>
+      </keybind>
+      <keybind key="Right">
+        <action name="GoToDesktop">
+          <to>right</to>
+        </action>
+      </keybind>
+      <keybind key="Escape">
+        <action name="BreakChroot"/>
+      </keybind>
+    </keybind>
     <keybind key="C-A-Left">
       <action name="GoToDesktop">
         <to>previous</to>
