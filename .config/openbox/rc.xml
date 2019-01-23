@@ -101,6 +101,12 @@
   </dock>
   <keyboard>
     <chainQuitKey>Escape</chainQuitKey>
+    <!-- Key quoting -->
+    <keybind key="C-A-q" chroot="true">
+      <keybind key="C-A-q">
+        <action name="BreakChroot"/>
+      </keybind>
+    </keybind>
     <!-- Change desktops -->
     <keybind key="C-A-d" chroot="true">
       <keybind key="Up">
