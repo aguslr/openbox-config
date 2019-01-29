@@ -102,7 +102,7 @@ mouse_left = toggle_iconify
 mouse_middle = maximize_restore
 mouse_right = shade
 mouse_scroll_up = none
-mouse_scroll_down =  none
+mouse_scroll_down = none
 
 
 #-------------------------------------
