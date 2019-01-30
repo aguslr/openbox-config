@@ -55,9 +55,11 @@ tint2 -c "${XDG_CONFIG_HOME:-$HOME/.config}/tint2/ob_systray" &
 pgrep -xu "$USER" compton >/dev/null || \
     compton -bcCG -o 0.2 -r 0 -l 5 -t 5 -f -D2
 
+# Set DPMS (Energy Star) features
+xset dpms 630 700 760
 # Change screen timeout
 # https://wiki.archlinux.org/index.php/Display_Power_Management_Signaling#Modifying_DPMS_and_screensaver_settings_using_xset
-xset s 600 600
+xset s 600
 # Start xss-lock if login locally
 if [ -z "$XRDP_SESSION" ]; then
 	pgrep -xu "$USER" xss-lock >/dev/null || \
