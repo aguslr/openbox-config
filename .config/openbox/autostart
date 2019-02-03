@@ -63,7 +63,7 @@ xset s 600
 # Start xss-lock if login locally
 if [ -z "$XRDP_SESSION" ]; then
 	pgrep -xu "$USER" xss-lock >/dev/null || \
-	    xss-lock -- i3lock.sh -s 50 -efI 5 &
+	    xss-lock -- i3lock.sh -efI 5 &
 fi
 
 # Start udiskie for device automonting
