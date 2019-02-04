@@ -6,7 +6,7 @@
 rounded = 0
 border_width = 1
 background_color = #e8e8e7 100
-border_color = #787c7d 100
+border_color = #e8e8e7 100
 background_color_hover = #e8e8e7 100
 border_color_hover = #787c7d 100
 background_color_pressed = #e8e8e7 100
