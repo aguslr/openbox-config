@@ -19,7 +19,7 @@
     <primaryMonitor>1</primaryMonitor>
   </placement>
   <theme>
-    <name>Adwaita</name>
+    <name>Greybird</name>
     <titleLayout>L</titleLayout>
     <keepBorder>yes</keepBorder>
     <animateIconify>no</animateIconify>
