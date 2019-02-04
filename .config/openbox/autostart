@@ -43,7 +43,8 @@ pgrep -xu "$USER" urxvtd >/dev/null || urxvtd -q -o -f
 getXcolor.sh --generate all
 
 # Set background
-hsetroot -solid '#898b8b' || xsetroot -solid '#898b8b'
+bgcolor="$(getXcolor.sh -c brightblack 2>/dev/null)" || bgcolor='7f7f7f'
+hsetroot -solid "#$bgcolor" || xsetroot -solid "#$bgcolor"
 nitrogen --restore
 
 # Launch panel
