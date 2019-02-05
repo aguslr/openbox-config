@@ -20,7 +20,7 @@
   </placement>
   <theme>
     <name>Greybird</name>
-    <titleLayout>L</titleLayout>
+    <titleLayout>SDLMC</titleLayout>
     <keepBorder>yes</keepBorder>
     <animateIconify>no</animateIconify>
     <font place="ActiveWindow">
