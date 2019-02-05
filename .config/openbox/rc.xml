@@ -91,7 +91,7 @@
     <position>BottomLeft</position>
     <floatingX>0</floatingX>
     <floatingY>0</floatingY>
-    <noStrut>yes</noStrut>
+    <noStrut>no</noStrut>
     <stacking>Above</stacking>
     <direction>Horizontal</direction>
     <autoHide>yes</autoHide>
