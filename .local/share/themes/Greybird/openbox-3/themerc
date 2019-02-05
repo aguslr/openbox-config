@@ -128,7 +128,7 @@ menu.items.font:shadow=n
 menu.title.text.font:shadow=n
 
 # Everything else
-border.width: 5
+border.width: 1
 padding.width: 5
 padding.height: 5
 window.handle.width: 0
