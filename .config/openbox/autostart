@@ -52,10 +52,6 @@ tint2 -c "${XDG_CONFIG_HOME:-$HOME/.config}/tint2/ob_taskbar" &
 # Launch systray
 tint2 -c "${XDG_CONFIG_HOME:-$HOME/.config}/tint2/ob_systray" &
 
-# Launch composite manager
-pgrep -xu "$USER" compton >/dev/null || \
-    compton -bcCG -o 0.1 -r 0 -l 5 -t 5 -f -D2
-
 # Set DPMS (Energy Star) features
 xset dpms 630 700 760
 # Change screen timeout
