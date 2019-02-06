@@ -43,9 +43,9 @@ pgrep -xu "$USER" urxvtd >/dev/null || urxvtd -q -o -f
 getXcolor.sh --generate all
 
 # Set background
-bgcolor="$(getXcolor.sh -c brightblack 2>/dev/null)" || bgcolor='7f7f7f'
-hsetroot -solid "#$bgcolor" || xsetroot -solid "#$bgcolor"
-nitrogen --restore
+bgcolor="$(getXcolor.sh -c white 2>/dev/null)"       || bgcolor='1c1c1c'
+fgcolor="$(getXcolor.sh -c brightblack 2>/dev/null)" || fgcolor='7f7f7f'
+xsetroot -bg "#$bgcolor" -fg "#$fgcolor" -mod 2 2
 
 # Launch panel
 tint2 -c "${XDG_CONFIG_HOME:-$HOME/.config}/tint2/ob_taskbar" &
