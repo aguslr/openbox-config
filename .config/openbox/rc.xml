@@ -64,15 +64,15 @@
     <number>9</number>
     <firstdesk>1</firstdesk>
     <names>
-      <name>Desktop 1</name>
-      <name>Desktop 2</name>
-      <name>Desktop 3</name>
-      <name>Desktop 4</name>
-      <name>Desktop 5</name>
-      <name>Desktop 6</name>
-      <name>Desktop 7</name>
-      <name>Desktop 8</name>
-      <name>Desktop 9</name>
+      <name>Desktop1</name>
+      <name>Desktop2</name>
+      <name>Desktop3</name>
+      <name>Desktop4</name>
+      <name>Desktop5</name>
+      <name>Desktop6</name>
+      <name>Desktop7</name>
+      <name>Desktop8</name>
+      <name>Desktop9</name>
     </names>
     <popupTime>0</popupTime>
   </desktops>
