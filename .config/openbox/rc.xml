@@ -26,14 +26,14 @@
     <font place="ActiveWindow">
       <name>Terminus</name>
       <size>10</size>
-      <weight>bold</weight>
-      <slant>normal</slant>
+      <weight>Normal</weight>
+      <slant>Normal</slant>
     </font>
     <font place="InactiveWindow">
       <name>Terminus</name>
       <size>10</size>
-      <weight>bold</weight>
-      <slant>normal</slant>
+      <weight>Normal</weight>
+      <slant>Normal</slant>
     </font>
     <font place="MenuHeader">
       <name>Terminus</name>
