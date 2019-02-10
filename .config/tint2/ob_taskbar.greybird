@@ -5,6 +5,7 @@
 # Background 1
 rounded = 0
 border_width = 1
+border_sides = B
 background_color = #cecece 100
 border_color = #212121 100
 background_color_hover = #cecece 100
