@@ -746,7 +746,7 @@
       </action>
     </keybind>
     <!-- Lock screen -->
-    <keybind key="C-A-l">
+    <keybind key="W-l">
       <action name="Execute">
         <command>xset s activate</command>
       </action>
