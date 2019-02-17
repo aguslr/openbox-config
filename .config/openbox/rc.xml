@@ -108,7 +108,7 @@
       </keybind>
     </keybind>
     <!-- Change desktops -->
-    <keybind key="C-A-d" chroot="true">
+    <keybind key="W-A-d" chroot="true">
       <keybind key="Up">
         <action name="GoToDesktop">
           <to>up</to>
