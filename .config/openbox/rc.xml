@@ -133,16 +133,6 @@
         <action name="BreakChroot"/>
       </keybind>
     </keybind>
-    <keybind key="C-A-Left">
-      <action name="GoToDesktop">
-        <to>previous</to>
-      </action>
-    </keybind>
-    <keybind key="C-A-Right">
-      <action name="GoToDesktop">
-        <to>next</to>
-      </action>
-    </keybind>
     <keybind key="W-Left">
       <action name="Execute">
         <command>sh -c 'changeDesktop.sh prev'</command>
@@ -796,18 +786,6 @@
           <command>sh -c 'changeDesktop.sh next'</command>
         </action>
       </mousebind>
-      <mousebind button="C-A-Up" action="Click">
-        <action name="GoToDesktop">
-          <to>previous</to>
-          <wrap>no</wrap>
-        </action>
-      </mousebind>
-      <mousebind button="C-A-Down" action="Click">
-        <action name="GoToDesktop">
-          <to>next</to>
-          <wrap>no</wrap>
-        </action>
-      </mousebind>
       <mousebind button="W-S-Up" action="Click">
         <action name="SendToDesktop">
           <to>previous</to>
@@ -1031,18 +1009,6 @@
       <mousebind button="W-Down" action="Click">
         <action name="Execute">
           <command>sh -c 'changeDesktop.sh next'</command>
-        </action>
-      </mousebind>
-      <mousebind button="C-A-Up" action="Click">
-        <action name="GoToDesktop">
-          <to>previous</to>
-          <wrap>no</wrap>
-        </action>
-      </mousebind>
-      <mousebind button="C-A-Down" action="Click">
-        <action name="GoToDesktop">
-          <to>next</to>
-          <wrap>no</wrap>
         </action>
       </mousebind>
       <mousebind button="Left" action="Press">
