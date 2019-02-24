@@ -369,8 +369,8 @@
         <y>20</y>
       </action>
     </keybind>
-    <!-- Move window to edge -->
     <keybind key="W-e">
+      <!-- Move window to edge -->
       <keybind key="W-h">
         <action name="MoveResizeTo">
           <x>0</x>
@@ -391,9 +391,7 @@
           <y>-0</y>
         </action>
       </keybind>
-    </keybind>
-    <!-- Window snapping/tiling -->
-    <keybind key="W-e">
+      <!-- Window snapping/tiling -->
       <keybind key="W-Left">
         <action name="UnmaximizeFull"/>
         <action name="GrowToEdge">
