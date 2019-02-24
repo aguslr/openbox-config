@@ -369,30 +369,30 @@
         <y>20</y>
       </action>
     </keybind>
-    <keybind key="W-e">
+    <keybind key="W-e" chroot="true">
       <!-- Move window to edge -->
-      <keybind key="W-h">
+      <keybind key="h">
         <action name="MoveResizeTo">
           <x>0</x>
         </action>
       </keybind>
-      <keybind key="W-l">
+      <keybind key="l">
         <action name="MoveResizeTo">
           <x>-0</x>
         </action>
       </keybind>
-      <keybind key="W-k">
+      <keybind key="k">
         <action name="MoveResizeTo">
           <y>0</y>
         </action>
       </keybind>
-      <keybind key="W-j">
+      <keybind key="j">
         <action name="MoveResizeTo">
           <y>-0</y>
         </action>
       </keybind>
       <!-- Window snapping/tiling -->
-      <keybind key="W-Left">
+      <keybind key="Left">
         <action name="UnmaximizeFull"/>
         <action name="GrowToEdge">
           <direction>north</direction>
@@ -407,7 +407,7 @@
           <direction>west</direction>
         </action>
       </keybind>
-      <keybind key="W-Right">
+      <keybind key="Right">
         <action name="UnmaximizeFull"/>
         <action name="GrowToEdge">
           <direction>north</direction>
@@ -422,7 +422,7 @@
           <direction>east</direction>
         </action>
       </keybind>
-      <keybind key="W-Up">
+      <keybind key="Up">
         <action name="UnmaximizeFull"/>
         <action name="GrowToEdge">
           <direction>east</direction>
@@ -437,7 +437,7 @@
           <direction>north</direction>
         </action>
       </keybind>
-      <keybind key="W-Down">
+      <keybind key="Down">
         <action name="UnmaximizeFull"/>
         <action name="GrowToEdge">
           <direction>east</direction>
