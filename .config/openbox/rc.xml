@@ -372,23 +372,23 @@
     <keybind key="W-e" chroot="true">
       <!-- Move window to edge -->
       <keybind key="h">
-        <action name="MoveResizeTo">
-          <x>0</x>
+        <action name="MoveToEdge">
+          <direction>west</direction>
         </action>
       </keybind>
       <keybind key="l">
-        <action name="MoveResizeTo">
-          <x>-0</x>
+        <action name="MoveToEdge">
+          <direction>east</direction>
         </action>
       </keybind>
       <keybind key="k">
-        <action name="MoveResizeTo">
-          <y>0</y>
+        <action name="MoveToEdge">
+          <direction>north</direction>
         </action>
       </keybind>
       <keybind key="j">
-        <action name="MoveResizeTo">
-          <y>-0</y>
+        <action name="MoveToEdge">
+          <direction>south</direction>
         </action>
       </keybind>
       <!-- Window snapping/tiling -->
