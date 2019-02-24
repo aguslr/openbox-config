@@ -735,12 +735,6 @@
         <command>dmenu_run -p 'Run:'</command>
       </action>
     </keybind>
-    <!-- Lock screen -->
-    <keybind key="W-l">
-      <action name="Execute">
-        <command>xset s activate</command>
-      </action>
-    </keybind>
     <keybind key="W-A-Escape">
       <action name="ShowMenu">
         <menu>exit-menu</menu>
