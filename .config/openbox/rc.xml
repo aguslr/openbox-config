@@ -82,10 +82,10 @@
     <popupPosition>Center</popupPosition>
   </resize>
   <margins>
-    <top>42</top>
-    <bottom>10</bottom>
-    <left>10</left>
-    <right>10</right>
+    <top>0</top>
+    <bottom>0</bottom>
+    <left>0</left>
+    <right>0</right>
   </margins>
   <dock>
     <position>BottomLeft</position>
