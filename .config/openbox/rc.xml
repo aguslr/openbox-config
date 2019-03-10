@@ -370,6 +370,23 @@
       </action>
     </keybind>
     <keybind key="W-e" chroot="true">
+      <!-- Center window -->
+      <keybind key="c">
+        <action name="UnmaximizeFull"/>
+        <action name="GrowToEdge">
+          <direction>north</direction>
+        </action>
+        <action name="GrowToEdge">
+          <direction>south</direction>
+        </action>
+        <action name="MoveResizeTo">
+          <width>50%</width>
+        </action>
+        <action name="MoveResizeTo">
+          <x>center</x>
+          <y>center</y>
+        </action>
+      </keybind>
       <!-- Move window to edge -->
       <keybind key="h">
         <action name="MoveToEdge">
