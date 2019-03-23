@@ -45,7 +45,7 @@ mouse_pressed_icon_asb = 100 0 0
 # System tray (notification area)
 #-------------------------------------
 
-systray_padding = 8 2 10
+systray_padding = 8 2 15
 systray_background_id = 0
 systray_sort = ascending
 systray_icon_size = 16
