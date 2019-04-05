@@ -373,17 +373,13 @@
       <!-- Center window -->
       <keybind key="c">
         <action name="UnmaximizeFull"/>
-        <action name="GrowToEdge">
-          <direction>north</direction>
-        </action>
-        <action name="GrowToEdge">
-          <direction>south</direction>
-        </action>
-        <action name="MoveResizeTo">
-          <width>50%</width>
-        </action>
         <action name="MoveResizeTo">
           <x>center</x>
+        </action>
+      </keybind>
+      <keybind key="S-c">
+        <action name="UnmaximizeFull"/>
+        <action name="MoveResizeTo">
           <y>center</y>
         </action>
       </keybind>
