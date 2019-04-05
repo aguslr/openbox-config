@@ -404,7 +404,32 @@
           <direction>south</direction>
         </action>
       </keybind>
-      <!-- Window snapping/tiling -->
+      <!-- Window snapping -->
+      <keybind key="S-h">
+        <action name="UnmaximizeFull"/>
+        <action name="GrowToEdge">
+          <direction>west</direction>
+        </action>
+      </keybind>
+      <keybind key="S-l">
+        <action name="UnmaximizeFull"/>
+        <action name="GrowToEdge">
+          <direction>east</direction>
+        </action>
+      </keybind>
+      <keybind key="S-k">
+        <action name="UnmaximizeFull"/>
+        <action name="GrowToEdge">
+          <direction>north</direction>
+        </action>
+      </keybind>
+      <keybind key="S-j">
+        <action name="UnmaximizeFull"/>
+        <action name="GrowToEdge">
+          <direction>south</direction>
+        </action>
+      </keybind>
+      <!-- Window tiling -->
       <keybind key="Left">
         <action name="UnmaximizeFull"/>
         <action name="GrowToEdge">
