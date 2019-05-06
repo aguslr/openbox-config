@@ -32,8 +32,8 @@
       <item label="_Epiphany">
         <action name="Execute"><command>epiphany</command></action>
       </item>
-      <item label="Epiphany (private _instance)">
-        <action name="Execute"><command>epiphany --private-instance</command></action>
+      <item label="Epiphany (_incognito mode)">
+        <action name="Execute"><command>epiphany --incognito-mode</command></action>
       </item>
       <item label="_Midori">
         <action name="Execute"><command>midori</command></action>
