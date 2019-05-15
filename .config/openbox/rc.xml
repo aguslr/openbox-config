@@ -130,6 +130,27 @@
           <to>right</to>
         </action>
       </keybind>
+      <!-- Send window to specific desktop -->
+      <keybind key="S-Up">
+        <action name="SendToDesktop">
+          <to>up</to>
+        </action>
+      </keybind>
+      <keybind key="S-Down">
+        <action name="SendToDesktop">
+          <to>down</to>
+        </action>
+      </keybind>
+      <keybind key="S-Left">
+        <action name="SendToDesktop">
+          <to>left</to>
+        </action>
+      </keybind>
+      <keybind key="S-Right">
+        <action name="SendToDesktop">
+          <to>right</to>
+        </action>
+      </keybind>
       <keybind key="Escape">
         <action name="BreakChroot"/>
       </keybind>
