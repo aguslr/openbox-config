@@ -986,6 +986,13 @@
     <application class="Steam">
       <maximized>no</maximized>
     </application>
+    <!-- Tabbed surf windows -->
+    <application class="tabbed">
+      <size>
+        <width>1000</width>
+        <height>1016</height>
+      </size>
+    </application>
     <!-- Tor browser window -->
     <application class="Tor Browser">
       <maximized>no</maximized>
