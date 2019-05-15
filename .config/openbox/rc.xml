@@ -497,8 +497,8 @@
     <keybind key="W-Down">
       <action name="Unmaximize"/>
     </keybind>
-    <!-- Toggle shading -->
-    <keybind key="W-s">
+    <!-- Toggle window rolling -->
+    <keybind key="W-r">
       <action name="If">
         <query>
           <shaded>no</shaded>
@@ -520,12 +520,12 @@
     <keybind key="W-o">
       <action name="ToggleOmnipresent"/>
     </keybind>
-    <!-- Toggle dock autohide -->
-    <keybind key="W-t">
+    <!-- Toggle system tray -->
+    <keybind key="W-s">
       <action name="ToggleDockAutohide"/>
     </keybind>
-    <!-- Toggle decorations -->
-    <keybind key="W-d">
+    <!-- Toggle title bar -->
+    <keybind key="W-t">
       <action name="ToggleDecorations"/>
     </keybind>
     <!-- Toggle fullscreen -->
