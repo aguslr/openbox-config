@@ -986,6 +986,13 @@
     <application class="Steam">
       <maximized>no</maximized>
     </application>
+    <!-- Surf windows -->
+    <application class="Surf">
+      <size>
+        <width>1000</width>
+        <height>1000</height>
+      </size>
+    </application>
     <!-- Tabbed surf windows -->
     <application class="tabbed">
       <size>
