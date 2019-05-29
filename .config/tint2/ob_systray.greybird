@@ -49,7 +49,7 @@ systray_padding = 8 2 15
 systray_background_id = 0
 systray_sort = ascending
 systray_icon_size = 16
-systray_icon_asb = 80 0 80
+systray_icon_asb = 90 -100 0
 systray_monitor = 1
 
 
