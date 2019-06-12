@@ -916,8 +916,8 @@
       <fullscreen>no</fullscreen>
       <maximized>no</maximized>
       <position force="yes">
-        <x>center</x>
-        <y>center</y>
+        <x>default</x>
+        <y>default</y>
         <monitor>mouse</monitor>
       </position>
     </application>
@@ -927,8 +927,8 @@
       <fullscreen>no</fullscreen>
       <maximized>no</maximized>
       <position force="yes">
-        <x>center</x>
-        <y>center</y>
+        <x>default</x>
+        <y>default</y>
         <monitor>mouse</monitor>
       </position>
     </application>
@@ -954,8 +954,8 @@
       <focus>yes</focus>
       <fullscreen>yes</fullscreen>
       <position force="yes">
-        <x>center</x>
-        <y>center</y>
+        <x>default</x>
+        <y>default</y>
         <monitor>2</monitor>
       </position>
     </application>
@@ -963,8 +963,8 @@
       <focus>yes</focus>
       <fullscreen>yes</fullscreen>
       <position force="yes">
-        <x>center</x>
-        <y>center</y>
+        <x>default</x>
+        <y>default</y>
         <monitor>2</monitor>
       </position>
     </application>
