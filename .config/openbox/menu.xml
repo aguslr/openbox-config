@@ -74,7 +74,7 @@
     </item>
     <item label="_Logout">
       <action name="Execute">
-        <command>sh -c 'zenity --question --title "Exit" --text "Are you sure you want to exit OpenBox?" &amp;&amp; openbox --exit'</command>
+        <command>sh -c 'zenity --question --title "Exit" --text "Are you sure you want to exit?" &amp;&amp; openbox --exit'</command>
       </action>
     </item>
     <item label="Re_boot">
