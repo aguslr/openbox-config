@@ -5,7 +5,7 @@
 # Use different git branch depending on screen height
 if [ "$(xdpyinfo | awk '/dimensions/ {print $2}' | awk -Fx '{print $2}')" -lt 800 ]; then
 	(cd "${XDG_CONFIG_HOME:-$HOME/.config}/openbox" && \
-		git checkout tabbed 2>/dev/null && openbox --reconfigure)
+		git checkout maximized 2>/dev/null && openbox --reconfigure)
 else
 	(cd "${XDG_CONFIG_HOME:-$HOME/.config}/openbox" && \
 		git checkout master 2>/dev/null && openbox --reconfigure)
