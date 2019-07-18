@@ -24,8 +24,8 @@ xcalib -d :1 ~/.color/icc/screen1.icm 2>/dev/null
 # Load custom Xmodmap
 [ -f "$HOME/.Xmodmap" ] && xmodmap "$HOME/.Xmodmap"
 
-# Bind Caps Lock to Ctrl when held
-setxkbmap -option caps:ctrl_modifier
+# Bind Caps Lock to Ctrl
+setxkbmap -option ctrl:nocaps
 
 # Enable trackpad tapping, edgescrolling and disable while typing
 synclient TapButton1=1 TapButton2=2 TapButton3=3 HorizEdgeScroll=1 VertEdgeScroll=1 PalmDetect=1
