@@ -305,7 +305,7 @@
     </keybind>
     <keybind key="A-Tab">
       <action name="NextWindow">
-        <bar>no</bar>
+        <bar>yes</bar>
         <dialog>list</dialog>
         <raise>yes</raise>
         <finalactions>
@@ -317,7 +317,7 @@
     </keybind>
     <keybind key="A-S-Tab">
       <action name="PreviousWindow">
-        <bar>no</bar>
+        <bar>yes</bar>
         <dialog>list</dialog>
         <raise>yes</raise>
         <finalactions>
