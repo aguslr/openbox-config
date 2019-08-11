@@ -591,12 +591,6 @@
         <menu>root-menu</menu>
       </action>
     </keybind>
-    <!-- Open window list menu -->
-    <keybind key="W-w">
-      <action name="ShowMenu">
-        <menu>client-list-combined-menu</menu>
-      </action>
-    </keybind>
     <!-- Launch URxvt client -->
     <keybind key="W-Return">
       <action name="Execute">
