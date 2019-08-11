@@ -102,8 +102,8 @@
   <keyboard>
     <chainQuitKey>Escape</chainQuitKey>
     <!-- Key quoting -->
-    <keybind key="W-A-q" chroot="true">
-      <keybind key="W-A-q">
+    <keybind key="W-Escape" chroot="true">
+      <keybind key="W-Escape">
         <action name="BreakChroot"/>
       </keybind>
     </keybind>
