@@ -603,7 +603,7 @@
         <command>dmenu_run -p 'Run:'</command>
       </action>
     </keybind>
-    <keybind key="W-A-Escape">
+    <keybind key="W-S-q">
       <action name="ShowMenu">
         <menu>exit-menu</menu>
       </action>
