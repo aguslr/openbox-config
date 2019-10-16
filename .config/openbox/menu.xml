@@ -90,4 +90,22 @@
   </menu>
 </menu>
 
+<menu id="options-menu" label="_Options">
+  <item label="_New">
+    <action name="Execute"><command>sizewin.sh urxvt</command></action>
+  </item>
+  <item label="_Close">
+    <action name="Execute"><command>xdotool selectwindow windowclose</command></action>
+  </item>
+  <item label="_Resize">
+    <action name="Execute"><command>sizewin.sh --select</command></action>
+  </item>
+  <item label="_Snarf">
+    <action name="Execute"><command>sh -c 'xsel -p -o | xsel -b -i'</command></action>
+  </item>
+  <item label="_Plumb">
+    <action name="Execute"><command>sh -c 'plumb.sh --auto $(xsel -o)'</command></action>
+  </item>
+</menu>
+
 </openbox_menu>
