@@ -94,6 +94,9 @@
   <item label="_New">
     <action name="Execute"><command>sizewin.sh urxvt</command></action>
   </item>
+  <item label="_Hide">
+    <action name="Execute"><command>xdotool selectwindow windowminimize</command></action>
+  </item>
   <item label="_Close">
     <action name="Execute"><command>xdotool selectwindow windowclose</command></action>
   </item>
