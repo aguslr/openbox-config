@@ -20,44 +20,44 @@
   </placement>
   <theme>
     <name>MyWindowLab</name>
-    <titleLayout>SDLMC</titleLayout>
+    <titleLayout>LIMC</titleLayout>
     <keepBorder>yes</keepBorder>
     <animateIconify>no</animateIconify>
     <font place="ActiveWindow">
       <name>Terminus</name>
       <size>10</size>
-      <weight>Normal</weight>
+      <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveWindow">
       <name>Terminus</name>
       <size>10</size>
-      <weight>Normal</weight>
+      <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuHeader">
       <name>Terminus</name>
       <size>12</size>
-      <weight>normal</weight>
-      <slant>normal</slant>
+      <weight>Bold</weight>
+      <slant>Normal</slant>
     </font>
     <font place="MenuItem">
       <name>Terminus</name>
       <size>12</size>
-      <weight>normal</weight>
-      <slant>normal</slant>
+      <weight>Normal</weight>
+      <slant>Normal</slant>
     </font>
     <font place="ActiveOnScreenDisplay">
       <name>Terminus</name>
       <size>12</size>
-      <weight>bold</weight>
-      <slant>normal</slant>
+      <weight>Bold</weight>
+      <slant>Normal</slant>
     </font>
     <font place="InactiveOnScreenDisplay">
       <name>Terminus</name>
       <size>12</size>
-      <weight>bold</weight>
-      <slant>normal</slant>
+      <weight>Bold</weight>
+      <slant>Normal</slant>
     </font>
   </theme>
   <desktops>
