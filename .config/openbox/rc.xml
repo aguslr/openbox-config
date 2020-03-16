@@ -936,12 +936,12 @@
   <applications>
     <!-- Normal windows -->
     <application type="normal">
-      <decor>no</decor>
+      <decor>yes</decor>
       <maximized>no</maximized>
     </application>
     <!-- Popup windows -->
     <application name="popup">
-      <decor>no</decor>
+      <decor>yes</decor>
       <shade>no</shade>
       <fullscreen>no</fullscreen>
       <maximized>no</maximized>
@@ -952,7 +952,7 @@
       </position>
     </application>
     <application class="?message">
-      <decor>no</decor>
+      <decor>yes</decor>
       <shade>no</shade>
       <fullscreen>no</fullscreen>
       <maximized>no</maximized>
@@ -964,7 +964,7 @@
     </application>
     <!-- Dialog windows -->
     <application type="dialog">
-      <decor>no</decor>
+      <decor>yes</decor>
     </application>
     <!-- GIMP windows -->
     <application class="Gimp*" name="gimp*" role="gimp-toolbox" type="utility">
