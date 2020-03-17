@@ -583,7 +583,19 @@
     </keybind>
     <!-- Toggle maximize -->
     <keybind key="W-m">
-      <action name="ToggleMaximizeFull"/>
+      <action name="If">
+        <query>
+          <maximized>yes</maximized>
+        </query>
+        <then>
+          <action name="Decorate"/>
+          <action name="Unmaximize"/>
+        </then>
+        <else>
+          <action name="Undecorate"/>
+          <action name="Maximize"/>
+        </else>
+      </action>
     </keybind>
     <!-- Open menu -->
     <keybind key="A-F1">
