@@ -561,7 +561,6 @@
         <else>
           <action name="Focus"/>
           <action name="Unshade"/>
-          <action name="Undecorate"/>
         </else>
       </action>
     </keybind>
