@@ -37,13 +37,13 @@
     </font>
     <font place="MenuHeader">
       <name>Terminus</name>
-      <size>12</size>
+      <size>10</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuItem">
       <name>Terminus</name>
-      <size>12</size>
+      <size>10</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
