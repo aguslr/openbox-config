@@ -27,7 +27,11 @@ menu.separator.color: #000000
 # OSD settings
 osd.bg: Flat
 osd.bg.color: #CECECE
+osd.label.bg: Flat Solid
+osd.label.bg.color: #F0D000
 osd.label.text.color: #000000
+osd.hilight.bg: Flat Solid
+osd.hilight.bg.color: #F0D000
 osd.border.width: 2
 
 
