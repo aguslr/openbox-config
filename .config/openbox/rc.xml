@@ -56,7 +56,7 @@
     <font place="InactiveOnScreenDisplay">
       <name>Terminus</name>
       <size>12</size>
-      <weight>Bold</weight>
+      <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
   </theme>
