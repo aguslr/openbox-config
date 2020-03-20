@@ -18,7 +18,9 @@ menu.items.active.bg: Flat Vertical
 menu.items.active.bg.color: #F0D000
 menu.items.active.text.color: #000000
 
-menu.separator.width: 1
+menu.separator.width: 2
+menu.separator.padding.height: 0
+menu.separator.padding.width: 0
 menu.separator.color: #000000
 
 
