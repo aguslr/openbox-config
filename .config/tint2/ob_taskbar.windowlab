@@ -37,17 +37,6 @@ border_color_pressed = #000000 100
 # Background 4
 rounded = 0
 border_width = 2
-border_sides = L
-background_color = #cecece 100
-border_color = #000000 100
-background_color_hover = #cecece 100
-border_color_hover = #000000 100
-background_color_pressed = #cecece 100
-border_color_pressed = #000000 100
-
-# Background 5
-rounded = 0
-border_width = 2
 border_sides = R
 background_color = #f0d000 100
 border_color = #000000 100
@@ -56,7 +45,7 @@ border_color_hover = #000000 100
 background_color_pressed = #f0d000 100
 border_color_pressed = #000000 100
 
-# Background 6
+# Background 5
 rounded = 0
 border_width = 2
 border_sides = R
@@ -138,8 +127,8 @@ task_active_icon_asb = 100 0 0
 task_urgent_icon_asb = 100 0 0
 task_iconified_icon_asb = 98 0 0
 task_background_id = 3
-task_active_background_id = 5
-task_urgent_background_id = 6
+task_active_background_id = 4
+task_urgent_background_id = 5
 task_iconified_background_id = 3
 mouse_left = toggle_iconify
 mouse_middle = maximize_restore
@@ -160,7 +149,7 @@ time2_timezone =
 time2_font = Terminus 10
 clock_font_color = #000000 100
 clock_padding = 10 0
-clock_background_id = 4
+clock_background_id = 2
 clock_tooltip = %A, %d %B %Y
 clock_tooltip_timezone = 
 clock_lclick_command = gsimplecal
