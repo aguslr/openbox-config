@@ -952,7 +952,6 @@
     </application>
     <!-- Popup windows -->
     <application name="popup">
-      <decor>yes</decor>
       <shade>no</shade>
       <fullscreen>no</fullscreen>
       <maximized>no</maximized>
@@ -963,7 +962,6 @@
       </position>
     </application>
     <application class="?message">
-      <decor>yes</decor>
       <shade>no</shade>
       <fullscreen>no</fullscreen>
       <maximized>no</maximized>
@@ -975,7 +973,7 @@
     </application>
     <!-- Dialog windows -->
     <application type="dialog">
-      <decor>yes</decor>
+      <decor>no</decor>
     </application>
     <!-- GIMP windows -->
     <application class="Gimp*" name="gimp*" role="gimp-toolbox" type="utility">
