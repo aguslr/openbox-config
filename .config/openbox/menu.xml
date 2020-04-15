@@ -91,7 +91,6 @@
 </menu>
 
 <menu id="options-menu" label="_Options">
-  <separator label="Options" />
   <item label="_New">
     <action name="Execute"><command>sizewin.sh urxvt</command></action>
   </item>
