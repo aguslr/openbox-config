@@ -329,6 +329,7 @@
     </keybind>
     <keybind key="W-Tab">
       <action name="NextWindow">
+        <bar>none</bar>
         <dialog>none</dialog>
         <allDesktops>yes</allDesktops>
         <finalactions>
