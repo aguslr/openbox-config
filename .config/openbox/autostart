@@ -42,9 +42,6 @@ pgrep -xu "$USER" urxvtd >/dev/null || urxvtd -q -o -f
 # Generate color files
 getXcolor.sh --generate all
 
-# Set background
-xsetroot -solid '#406080'
-
 # Launch panel
 tint2 -c "${XDG_CONFIG_HOME:-$HOME/.config}/tint2/ob_taskbar" &
 # Launch systray
