@@ -1026,6 +1026,19 @@
     <application class="Steam">
       <maximized>no</maximized>
     </application>
+    <!-- Firefox windows -->
+    <application class="Firefox" type="normal">
+      <size>
+        <width>1026</width>
+        <height>1027</height>
+      </size>
+    </application>
+    <application class="Firefox-esr" type="normal">
+      <size>
+        <width>1026</width>
+        <height>1027</height>
+      </size>
+    </application>
     <!-- Surf windows -->
     <application class="Surf">
       <decor>no</decor>
