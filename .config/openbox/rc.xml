@@ -24,38 +24,38 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>no</animateIconify>
     <font place="ActiveWindow">
-      <name>Terminus</name>
-      <size>10</size>
+      <name>Terminus (TTF)</name>
+      <size>12</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveWindow">
-      <name>Terminus</name>
-      <size>10</size>
+      <name>Terminus (TTF)</name>
+      <size>12</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuHeader">
-      <name>Terminus</name>
-      <size>10</size>
+      <name>Terminus (TTF)</name>
+      <size>12</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuItem">
-      <name>Terminus</name>
-      <size>10</size>
+      <name>Terminus (TTF)</name>
+      <size>12</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Terminus</name>
-      <size>12</size>
+      <name>Terminus (TTF)</name>
+      <size>14</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Terminus</name>
-      <size>12</size>
+      <name>Terminus (TTF)</name>
+      <size>14</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
