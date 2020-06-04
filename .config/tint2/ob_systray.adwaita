@@ -58,7 +58,7 @@ systray_monitor = 1
 #-------------------------------------
 
 execp = new
-execp_command = staty.sh mpd
+execp_command = /bin/sh -c "staty.sh mpd | sed 's/&/\&amp;/g'"
 execp_interval = 1
 execp_has_icon = 0
 execp_tooltip = 
