@@ -2,6 +2,11 @@
 # These things are run when an Openbox X Session is started.
 #
 
+# Load global autostart
+# shellcheck source=/dev/null
+[ -r "${XDG_CONFIG_HOME:-$HOME/.config}/autostart.sh" ] && \
+	. "${XDG_CONFIG_HOME:-$HOME/.config}/autostart.sh"
+
 # Use different git branch depending on screen height
 if [ "$(xdpyinfo | awk '/dimensions/ {print $2}' | awk -Fx '{print $2}')" -lt 800 ]; then
 	(cd "${XDG_CONFIG_HOME:-$HOME/.config}/openbox" && \
@@ -10,37 +15,6 @@ else
 	(cd "${XDG_CONFIG_HOME:-$HOME/.config}/openbox" && \
 		git checkout master 2>/dev/null && openbox --reconfigure)
 fi
-
-# Configure monitors
-disper --resolution=auto --extend
-
-# Set X Server properties
-xrdb ~/.Xdefaults
-
-# Load color profile
-xcalib -d :0 ~/.color/icc/screen0.icm 2>/dev/null
-xcalib -d :1 ~/.color/icc/screen1.icm 2>/dev/null
-
-# Load custom Xmodmap
-[ -f "$HOME/.Xmodmap" ] && xmodmap "$HOME/.Xmodmap"
-
-# Bind Caps Lock to Ctrl
-setxkbmap -option ctrl:nocaps
-
-# Enable trackpad tapping, edgescrolling and disable while typing
-synclient TapButton1=1 TapButton2=2 TapButton3=3 HorizEdgeScroll=1 VertEdgeScroll=1 PalmDetect=1
-
-# Hide mouse cursor when not used
-unclutter -root -visible -noevents &
-
-# Start sxhkd
-sxhkd -c "${XDG_CONFIG_HOME:-$HOME/.config}/sxhkd/sxhkdrc" &
-
-# Start Terminal daemon
-pgrep -xu "$USER" urxvtd >/dev/null || urxvtd -q -o -f
-
-# Generate color files
-getXcolor.sh --generate all
 
 # Set background
 xsetroot -solid '#406080'
@@ -69,6 +43,9 @@ amixer -q sset Master 50%
 
 # Start fdpowermon
 fdpowermon &
+
+# Start Terminal daemon
+pgrep -xu "$USER" urxvtd >/dev/null || urxvtd -q -o -f
 
 # Load local configuration
 # shellcheck source=/dev/null
