@@ -25,25 +25,25 @@
     <animateIconify>no</animateIconify>
     <font place="ActiveWindow">
       <name>Terminus</name>
-      <size>10</size>
+      <size>12</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveWindow">
       <name>Terminus</name>
-      <size>10</size>
+      <size>12</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuHeader">
       <name>Terminus</name>
-      <size>10</size>
+      <size>12</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuItem">
       <name>Terminus</name>
-      <size>10</size>
+      <size>12</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
