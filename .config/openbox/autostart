@@ -45,11 +45,6 @@ getXcolor.sh --generate all
 # Set background
 xsetroot -solid '#406080'
 
-# Launch panel
-tint2 -c "${XDG_CONFIG_HOME:-$HOME/.config}/tint2/ob_taskbar" &
-# Launch systray
-tint2 -c "${XDG_CONFIG_HOME:-$HOME/.config}/tint2/ob_systray" &
-
 # Set DPMS (Energy Star) features
 xset dpms 630 700 760
 # Change screen timeout
@@ -60,6 +55,11 @@ if [ -z "$XRDP_SESSION" ]; then
 	pgrep -xu "$USER" xss-lock >/dev/null || \
 	    xss-lock -- i3lock.sh -efI 5 &
 fi
+
+# Launch panel
+tint2 -c "${XDG_CONFIG_HOME:-$HOME/.config}/tint2/ob_taskbar" &
+# Launch systray
+tint2 -c "${XDG_CONFIG_HOME:-$HOME/.config}/tint2/ob_systray" &
 
 # Start udiskie for device automonting
 pgrep -xu "$USER" udiskie >/dev/null || udiskie --smart-tray &
