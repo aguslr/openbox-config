@@ -31,7 +31,7 @@ Unix environment available:
 wget https://gitlab.com/aguslr/openbox-config/-/archive/master/openbox-config-master.tar.gz -O - | tar -xzv --strip-components 1 --exclude={README.md}
 ```
 
-### Installing with Stow
+## Installing with Stow
 
 To easily create and manage links to the files we can use [GNU Stow][stow] as
 follows:
