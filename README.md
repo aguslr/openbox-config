@@ -13,7 +13,7 @@ If we have Git installed on the system, we can get the files directly from the
 repository:
 
 ```sh
-git clone https://github.com/aguslr/openbox-config
+git clone https://gitlab.com/aguslr/openbox-config
 ```
 
 After this, every time we want to update the files we do:
@@ -28,7 +28,7 @@ If Git is not installed, we can still get the files as long as we have a basic
 Unix environment available:
 
 ```sh
-wget https://github.com/aguslr/openbox-config/tarball/master -O - | tar -xzv --strip-components 1 --exclude={README.md}
+wget https://gitlab.com/aguslr/openbox-config/-/archive/master/openbox-config-master.tar.gz -O - | tar -xzv --strip-components 1 --exclude={README.md}
 ```
 
 ### Installing with Stow
