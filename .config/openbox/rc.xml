@@ -976,6 +976,14 @@
     <application type="dialog">
       <decor>no</decor>
     </application>
+    <!-- 9menu windows -->
+    <application class="9menu">
+      <decor>no</decor>
+      <focus>yes</focus>
+      <layer>above</layer>
+      <skip_pager>yes</skip_pager>
+      <skip_taskbar>yes</skip_taskbar>
+    </application>
     <!-- GIMP windows -->
     <application class="Gimp*" name="gimp*" role="gimp-toolbox" type="utility">
       <maximized>vertical</maximized>
