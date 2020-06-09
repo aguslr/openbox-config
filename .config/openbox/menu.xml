@@ -92,13 +92,13 @@
 
 <menu id="options-menu" label="_Options">
   <item label="_New">
-    <action name="Execute"><command>sizewin.sh urxvt</command></action>
+    <action name="Execute"><command>changeWindow.sh --new urxvt</command></action>
   </item>
   <item label="_Resize">
-    <action name="Execute"><command>sizewin.sh</command></action>
+    <action name="Execute"><command>changeWindow.sh --select --resize</command></action>
   </item>
   <item label="_Move">
-    <action name="Execute"><command>sizewin.sh --move</command></action>
+    <action name="Execute"><command>changeWindow.sh --select --move</command></action>
   </item>
   <item label="_Delete">
     <action name="Execute"><command>xdotool selectwindow windowclose</command></action>
