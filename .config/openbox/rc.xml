@@ -542,9 +542,11 @@
       </keybind>
     </keybind>
     <keybind key="W-Up">
+      <action name="Undecorate"/>
       <action name="Maximize"/>
     </keybind>
     <keybind key="W-Down">
+      <action name="Decorate"/>
       <action name="Unmaximize"/>
     </keybind>
     <!-- Toggle window rolling -->
@@ -676,7 +678,19 @@
         <action name="Move"/>
       </mousebind>
       <mousebind button="Left" action="DoubleClick">
-        <action name="ToggleMaximize"/>
+        <action name="If">
+          <query>
+            <maximized>yes</maximized>
+          </query>
+          <then>
+            <action name="Decorate"/>
+            <action name="Unmaximize"/>
+          </then>
+          <else>
+            <action name="Undecorate"/>
+            <action name="Maximize"/>
+          </else>
+        </action>
       </mousebind>
       <mousebind button="Up" action="Click">
         <action name="if">
