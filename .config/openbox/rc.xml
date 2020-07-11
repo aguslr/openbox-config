@@ -910,14 +910,9 @@
     </context>
     <context name="Root">
       <!-- Menus -->
-      <mousebind button="Left" action="Press">
-        <action name="ShowMenu">
-          <menu>options-menu</menu>
-        </action>
-      </mousebind>
       <mousebind button="Middle" action="Press">
         <action name="ShowMenu">
-          <menu>client-list-combined-menu</menu>
+          <menu>options-menu</menu>
         </action>
       </mousebind>
       <mousebind button="Right" action="Press">
