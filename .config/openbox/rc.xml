@@ -614,7 +614,7 @@
     <!-- Launch dmenu -->
     <keybind key="A-r">
       <action name="Execute">
-        <command>sh -c 'rofi -show run -display-run Run: || dmenu_run -p Run:'</command>
+        <command>sh -c 'rofi -async-pre-read -show run -display-run Run: || dmenu_run -p Run:'</command>
       </action>
     </keybind>
     <keybind key="W-S-q">
