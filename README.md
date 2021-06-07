@@ -28,7 +28,7 @@ If Git is not installed, we can still get the files as long as we have a basic
 Unix environment available:
 
 ```sh
-wget https://gitlab.com/aguslr/openbox-config/-/archive/master/openbox-config-master.tar.gz -O - | tar -xzv --strip-components 1 --exclude={README.md,screenshot.png}
+wget https://gitlab.com/aguslr/openbox-config/-/archive/main/openbox-config-main.tar.gz -O - | tar -xzv --strip-components 1 --exclude={README.md,screenshot.png}
 ```
 
 ## Installing with Stow
@@ -48,7 +48,7 @@ make install
 
 ## Screenshot
 
-![Screenshot](https://gitlab.com/aguslr/openbox-config/raw/master/screenshot.png "Screenshot")
+![Screenshot](https://gitlab.com/aguslr/openbox-config/raw/main/screenshot.png "Screenshot")
 
 [make]: https://www.gnu.org/software/make/
 [openbox]: http://openbox.org/

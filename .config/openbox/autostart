@@ -13,7 +13,7 @@ if [ "$(xdpyinfo | awk '/dimensions/ {print $2}' | awk -Fx '{print $2}')" -lt 80
 		git checkout maximized 2>/dev/null && openbox --reconfigure)
 else
 	(cd "${XDG_CONFIG_HOME:-$HOME/.config}/openbox" && \
-		git checkout master 2>/dev/null && openbox --reconfigure)
+		git checkout main 2>/dev/null && openbox --reconfigure)
 fi
 
 # Set background
