@@ -12,39 +12,29 @@ configurable, next generation window manager with extensive standards support*.
 If we have Git installed on the system, we can get the files directly from the
 repository:
 
-```sh
-git clone https://gitlab.com/aguslr/openbox-config
-```
+    git clone https://gitlab.com/aguslr/openbox-config
 
 After this, every time we want to update the files we do:
 
-```sh
-cd openbox-config && git pull
-```
+    cd openbox-config && git pull
 
 ### Without Git
 
 If Git is not installed, we can still get the files as long as we have a basic
 Unix environment available:
 
-```sh
-wget https://gitlab.com/aguslr/openbox-config/-/archive/main/openbox-config-main.tar.gz -O - | tar -xzv --strip-components 1 --exclude={README.md,screenshot.png}
-```
+    wget https://gitlab.com/aguslr/openbox-config/-/archive/main/openbox-config-main.tar.gz -O - | tar -xzv --strip-components 1 --exclude={README.md,screenshot.png}
 
 ## Installing with Stow
 
 To easily create and manage links to the files we can use [GNU Stow][stow] as
 follows:
 
-```sh
-stow -vt ~ -S .
-```
+    stow -vt ~ -S .
 
 Or simply, using [Make][]:
 
-```sh
-make install
-```
+    make install
 
 ## Screenshot
 
